@@ -1,0 +1,19 @@
+package Api;
+
+import org.testng.annotations.Test;
+
+import utils.dataSource.LoadProperty;
+
+public class Demo {
+@Test
+public void test() {
+	System.out.println(LoadProperty.getvar("BaseUrl", "config"));
+
+	System.out.println(LoadProperty.getvar("ClientID", "config"));
+
+	System.out.println(LoadProperty.getvar("Access-token", "config"));
+
+	System.out.println(LoadProperty.getvar("Get-lists", "resource"));
+	
+}
+}

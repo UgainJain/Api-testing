@@ -1,0 +1,22 @@
+package Api.businessLogic;
+
+import io.restassured.specification.RequestSpecification;
+import utils.Base.BaseClass;
+
+public class BusinessLogic extends BaseClass{
+	String req = null;
+	RequestSpecification httpReq;
+	public boolean getLists() {
+		req = "getalllists";
+		try {
+		httpReq = createrequest(req);
+//		httpReq.log().all();
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+			return false;
+		}
+	}
+
+}

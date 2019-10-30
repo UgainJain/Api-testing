@@ -1,0 +1,19 @@
+package Demo;
+
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.specification.RequestSpecification;
+
+public class RestDemo {
+	@BeforeSuite
+	public void startSuite() {
+		RestAssured.baseURI = "http://localhost:3030";
+		}
+	@Test
+	public void test1() {
+		RequestSpecification httpRequest = RestAssured.given();
+		httpRequest.when().get("products");
+	}
+}

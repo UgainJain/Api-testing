@@ -1,0 +1,18 @@
+package Demo;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
+public class wunderlist {
+@Test
+public void test1() {
+	RestAssured.baseURI = "a.wunderlist.com";
+	RequestSpecification httpReq = RestAssured.given();
+	httpReq.auth().oauth2(" 3422d3662b138aa441c4b6339895f3baa179a41293734a6ae9053141cdc5");
+	Response res = httpReq.when().get("/api/v1/lists").then().log().all();
+	
+}
+}

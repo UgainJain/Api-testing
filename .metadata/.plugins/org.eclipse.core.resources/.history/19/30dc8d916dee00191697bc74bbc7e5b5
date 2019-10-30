@@ -1,0 +1,12 @@
+package Demo;
+
+import org.testng.annotations.BeforeSuite;
+
+import io.restassured.RestAssured;
+
+public class RestDemo {
+	@BeforeSuite
+	public void startSuite() {
+		RestAssured.baseURI = "http://localhost:3030";
+		}
+}

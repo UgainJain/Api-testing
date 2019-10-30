@@ -1,0 +1,15 @@
+package Api;
+
+import org.testng.annotations.Test;
+
+import Api.businessLogic.BusinessLogic;
+import junit.framework.Assert;
+
+public class Demo {
+@Test
+public void test() {
+	BusinessLogic bl = new BusinessLogic();
+	Assert.assertTrue(bl.getLists());
+	
+}
+}

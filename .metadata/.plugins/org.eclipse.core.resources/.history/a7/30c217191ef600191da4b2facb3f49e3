@@ -1,0 +1,10 @@
+package utils.Base;
+
+import io.restassured.RestAssured;
+
+public class BaseClass {
+	public void BeforeAll() {
+		RestAssured.baseURI
+	}
+
+}

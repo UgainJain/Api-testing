@@ -1,0 +1,13 @@
+package Demo;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class wunderlist {
+@Test
+public void test1() {
+	RestAssured.baseURI = "a.wunderlist.com";
+	httpReq = RestAssured.given();
+}
+}

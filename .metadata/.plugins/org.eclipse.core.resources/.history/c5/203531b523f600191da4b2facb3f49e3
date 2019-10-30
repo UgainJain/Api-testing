@@ -1,0 +1,42 @@
+package utils.Base;
+
+import java.util.HashMap;
+
+import io.restassured.RestAssured;
+import io.restassured.specification.RequestSpecification;
+import utils.Common.CommonUtils;
+import utils.dataSource.LoadProperty;
+
+public class BaseClass {
+	public static RequestSpecification httpReq;
+	public void BeforeAll() {
+		RestAssured.baseURI= LoadProperty.getvar("BaseUrl", "config");
+	}
+	
+	public RequestSpecification createrequest(String req) {
+		httpReq = RestAssured.given();
+		if(req.equalsIgnoreCase("getalllists")) {
+			CommonUtils.addHeader(httpReq);
+			return httpReq;
+		}
+		else if (req.equalsIgnoreCase("getSpecificList")) {
+			httpReq.queryParam("id", LoadProperty.getvar("GetListID", "ParamConfig"));
+			CommonUtils.addHeader(httpReq);
+			return httpReq;
+		}
+		else if (req.equalsIgnoreCase("createList"))
+		{	
+			CommonUtils.addHeader(httpReq);
+		}
+			
+		return httpReq;
+	}
+	public HashMap<String,String> createBody(String req){
+		HashMap<String, String> body = new HashMap<String, String>();
+		
+		return bodu
+	}
+
+}
+
+

@@ -1,0 +1,35 @@
+package utils.Base;
+
+import java.util.HashMap;
+
+import io.restassured.RestAssured;
+import io.restassured.specification.RequestSpecification;
+import utils.dataSource.LoadProperty;
+
+public class BaseClass {
+	public static RequestSpecification httpReq;
+	public void BeforeAll() {
+		RestAssured.baseURI= LoadProperty.getvar("BaseUrl", "config");
+	}
+	public void addHeader() {
+		HashMap<String, String> headers = new HashMap<String, String>();
+		headers.put("Content-Type", LoadProperty.getvar("Content-Type", "config"));
+		headers.put("X-Client-ID", LoadProperty.getvar("Client-ID", "config"));
+		headers.put("X-Access-Token",LoadProperty.getvar("Access-token", "config"));
+		httpReq.headers(headers);
+	}
+	public RequestSpecification createrequest(String req) {
+		httpReq = RestAssured.given();
+		if(req.equalsIgnoreCase("getalllists")) {
+			addHeader();
+			return httpReq;
+		}
+		else if (req.equalsIgnoreCase("getSpecificLists")) {
+			httpReq.queryParam("id", LoadProperty.getvar("GetListID", "ParamConfig"));
+		}
+			
+		return httpReq;
+	}
+	
+
+}

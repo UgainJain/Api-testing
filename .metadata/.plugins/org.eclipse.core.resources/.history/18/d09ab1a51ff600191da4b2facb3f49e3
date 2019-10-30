@@ -1,0 +1,23 @@
+package utils.Base;
+
+import io.restassured.RestAssured;
+import io.restassured.specification.RequestSpecification;
+import utils.dataSource.LoadProperty;
+
+public class BaseClass {
+	public static RequestSpecification httpReq;
+	public void BeforeAll() {
+		RestAssured.baseURI= LoadProperty.getvar("BaseUrl", "config");
+	}
+	public RequestSpecification createrequest(String reqtype,String Resource) {
+		httpReq = RestAssured.given();
+		if(Resource== "lists") {
+			if(reqtype.equalsIgnoreCase("get"))
+		}
+		
+		
+		
+		return httpReq;
+	}
+
+}

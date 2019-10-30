@@ -1,0 +1,20 @@
+package Api;
+
+import org.testng.annotations.Test;
+
+import Api.businessLogic.BusinessLogic;
+import junit.framework.Assert;
+
+public class Demo {
+	@BeforeConfig
+	public void before() {
+		BusinessLogic bl = new BusinessLogic();
+		bl.BeforeAll();
+	}
+@Test
+public void test() {
+	BusinessLogic bl = new BusinessLogic();
+	Assert.assertTrue(bl.getLists());
+	
+}
+}

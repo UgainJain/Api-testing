@@ -1,0 +1,37 @@
+package Demo;
+
+import java.util.HashMap;
+
+import org.testng.annotations.Test;
+
+import com.google.gson.Gson;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
+public class Demo2 {
+	@Test
+	public void testdemo2() {
+		RestAssured.baseURI = "https://maps.googleapis.com/maps";
+		RequestSpecification req = RestAssured.given();
+//		req.queryParam("key", );
+//		req.queryParam("input", "nagarro");
+//		req.queryParam("inputtype", "textquery");
+//		req.queryParam("fields", "photos,formatted_address,name,rating,opening_hours,geometry");
+		HashMap<String,String> H = new HashMap<String,String>();
+		H.put("key", "AIzaSyDrQQWeRCus-jnWxiA9klTAUbW-QgN8Z6I");
+		H.put("input", "nagarro");
+		H.put("inputtype", "textquery");
+//		H.put("fields", "photos,formatted_address,name,rating,opening_hours,geometry");
+		req.queryParams(H);
+		req.log().all();
+		Response res = req.when().get("api/place/findplacefromtext/json");
+		res.then().log().all();
+		Gson g = new Gson();
+		Demodto d = g.fromJson(res.prettyPrint(), Demodto.class);
+//		System.out.println(d.getStatus());
+		
+		res.then().log().ifValidationFails().assertThat().statusCode(200);
+	}
+}

@@ -1,0 +1,36 @@
+package utils.Base;
+
+import io.restassured.RestAssured;
+import io.restassured.specification.RequestSpecification;
+import utils.Common.CommonUtils;
+import utils.dataSource.LoadProperty;
+
+public class BaseClass {
+	public static RequestSpecification httpReq;
+	public void BeforeAll() {
+		RestAssured.baseURI= LoadProperty.getvar("BaseUrl", "config");
+	}
+	
+	public RequestSpecification createrequest(String req) {
+		httpReq = RestAssured.given();
+		if(req.equalsIgnoreCase("getalllists")) {
+			CommonUtils.addHeader(httpReq);
+			return httpReq;
+		}
+		else if (req.equalsIgnoreCase("getSpecificList")) {
+			httpReq.queryParam("id", LoadProperty.getvar("GetListID", "ParamConfig"));
+			addHeader();
+			return httpReq;
+		}
+		else if (req.equalsIgnoreCase("createList"))
+		{
+			
+		}
+			
+		return httpReq;
+	}
+	public HashMap
+
+}
+
+

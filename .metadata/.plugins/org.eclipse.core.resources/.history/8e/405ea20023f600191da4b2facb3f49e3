@@ -1,0 +1,17 @@
+package utils.Common;
+
+import java.util.HashMap;
+
+import io.restassured.specification.RequestSpecification;
+import utils.dataSource.LoadProperty;
+
+public class CommonUtils {
+	public RequestSpecification addHeader(RequestSpecification httpReq) {
+		HashMap<String, String> headers = new HashMap<String, String>();
+		headers.put("Content-Type", LoadProperty.getvar("Content-Type", "config"));
+		headers.put("X-Client-ID", LoadProperty.getvar("Client-ID", "config"));
+		headers.put("X-Access-Token",LoadProperty.getvar("Access-token", "config"));
+		httpReq.headers(headers);
+	}
+
+}
