@@ -10,12 +10,16 @@ public class Demo {
 	@BeforeSuite
 	public void before() {
 		BusinessLogic bl = new BusinessLogic();
-		bl.BeforeAll();
 	}
 @Test
 public void test() {
 	BusinessLogic bl = new BusinessLogic();
 	Assert.assertTrue(bl.getLists());
+	Assert.assertTrue(bl.getspecificList());
+	Assert.assertTrue(bl.createList());
+	Assert.assertTrue(bl.updateputList());
+	Assert.assertTrue(bl.updatepatchList());
+	Assert.assertTrue(bl.deleteLists());
 	
 }
 }

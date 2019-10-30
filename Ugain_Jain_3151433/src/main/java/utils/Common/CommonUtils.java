@@ -28,6 +28,9 @@ public class CommonUtils {
 		httpReq.pathParam(key, value);
 		return httpReq;
 	}
+	public static int intparser(String str) {
+		return Integer.parseInt(str);
+	} 
 
 }
   
