@@ -2,6 +2,7 @@ package Api.businessLogic;
 
 import io.restassured.response.Response;
 import utils.Base.BaseClass;
+import utils.Common.CommonUtils;
 
 public class BusinessLogic extends BaseClass{
 	String req = null;
@@ -25,7 +26,7 @@ public class BusinessLogic extends BaseClass{
 		createrequest(req);
 		Response resp = createresponse(req);
 		req = "deleteList";
-		resp.then().assertThat().statusCode(200);
+		resp.then().assertThat().statusCode(204);
 		return true;
 		}
 		catch(Exception e) {
@@ -44,6 +45,7 @@ public class BusinessLogic extends BaseClass{
 		}
 		catch(Exception e) {
 			System.out.println(e.getMessage());
+			e.printStackTrace();
 			return false;
 		}
 	}
@@ -54,6 +56,8 @@ public class BusinessLogic extends BaseClass{
 		Response resp = createresponse(req);
 		
 		resp.then().assertThat().statusCode(201);
+		CommonUtils.updateID(resp.jsonPath().get("id"));
+		CommonUtils.updateRevision(resp.jsonPath().get("revision"));
 		return true;
 		}
 		catch(Exception e) {
@@ -62,12 +66,14 @@ public class BusinessLogic extends BaseClass{
 		}
 	}
 	public boolean updatepatchList() {
-		req = "updatepatchList()";
+		req = "updatepatchList";
 		try {
 		createrequest(req);
 		Response resp = createresponse(req);
 		
 		resp.then().assertThat().statusCode(200);
+
+		CommonUtils.updateRevisionforupdate();
 		return true;
 		}
 		catch(Exception e) {
@@ -77,12 +83,14 @@ public class BusinessLogic extends BaseClass{
 	}
 	
 	public boolean updateputList() {
-		req = "updateputList()";
+		req = "updateputList";
 		try {
 		createrequest(req);
 		Response resp = createresponse(req);
 		
 		resp.then().assertThat().statusCode(200);
+
+		CommonUtils.updateRevisionforupdate();
 		return true;
 		}
 		catch(Exception e) {

@@ -23,7 +23,7 @@ public static String getvar(String key,String file) {
 			path = path +"/Resources/";
 			prop = new Properties();
 			prop.load(new FileInputStream(path +"ParamConfig.properties"));
-	}
+		}
 		else {
 		System.out.println("No Such File");
 	}
@@ -38,5 +38,5 @@ public static String getvar(String key,String file) {
 		e.printStackTrace();
 	}
 	return var;
-} 
+}
 }

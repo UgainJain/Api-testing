@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ExcelLib.java&apos; to &apos;Ugain_Jain_3151433/src/main/java/utils.dataSource&apos;&#x0D;&#x0A;- Original project: &apos;Session.2_Ugain&apos;&#x0D;&#x0A;- Destination element: &apos;Ugain_Jain_3151433/src/main/java/utils.dataSource&apos;&#x0D;&#x0A;- Original element: &apos;utils.dataSource.ExcelLib.java&apos;" description="Copy compilation unit" destination="=Ugain_Jain_3151433/src\/main\/java&lt;utils.dataSource" element1="/src\/main\/java&lt;utils.dataSource{ExcelLib.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1572500593708" units="1" version="1.0"/>
+</session>

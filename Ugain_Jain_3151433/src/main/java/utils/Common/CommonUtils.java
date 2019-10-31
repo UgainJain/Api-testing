@@ -1,8 +1,13 @@
 package utils.Common;
 
+import java.io.IOException;
 import java.util.HashMap;
 
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+
 import io.restassured.specification.RequestSpecification;
+import utils.dataSource.ExcelLib;
 import utils.dataSource.LoadProperty;
 
 public class CommonUtils {
@@ -31,6 +36,20 @@ public class CommonUtils {
 	public static int intparser(String str) {
 		return Integer.parseInt(str);
 	} 
+	public static void updateRevisionforupdate() throws NumberFormatException, EncryptedDocumentException, InvalidFormatException, IOException {
+		ExcelLib exl = new ExcelLib();
+		int rev = Integer.parseInt(exl.exceldata("Lists", 1, 2));
+		rev=rev + 1;
+		exl.updateExceldata("Login", 1, 2, Integer.toString(rev));
+	}
+	public static void updateID(Object object) throws NumberFormatException, EncryptedDocumentException, InvalidFormatException, IOException {
+		ExcelLib exl = new ExcelLib();
+		exl.updateExceldata("Login", 1, 0, Integer.toString((Integer) object));
+	}
+	public static void updateRevision(Object object) throws NumberFormatException, EncryptedDocumentException, InvalidFormatException, IOException {
+		ExcelLib exl = new ExcelLib();
+		exl.updateExceldata("Login", 1, 2, Integer.toString((Integer) object));
+	}
 
 }
   
