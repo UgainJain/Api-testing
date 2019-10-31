@@ -3267,3 +3267,8 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2019-10-31 18:12:06,613 [Worker-302] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-10-31 18:12:06,613 [Worker-302] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ugainjain\Documents\API-Testing\Ugain_Jain_3151433\src\main\resources
 2019-10-31 18:12:06,613 [Worker-302] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-31 18:12:06,613 [Worker-302] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ugainjain\Documents\API-Testing\Ugain_Jain_3151433\src\test\resources
+2019-10-31 18:17:17,433 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-31 18:17:17,434 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ugainjain\Documents\API-Testing\Ugain_Jain_3151433\src\main\resources
+2019-10-31 18:17:17,435 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-31 18:17:17,435 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ugainjain\Documents\API-Testing\Ugain_Jain_3151433\src\test\resources
