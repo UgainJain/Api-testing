@@ -50,6 +50,20 @@ public class CommonUtils {
 		ExcelLib exl = new ExcelLib();
 		exl.updateExceldata("Login", 1, 2, Integer.toString((Integer) object));
 	}
+	public static void updatetaskID(Object object) throws NumberFormatException, EncryptedDocumentException, InvalidFormatException, IOException {
+		ExcelLib exl = new ExcelLib();
+		exl.updateExceldata("Login", 1, 5, Long.toString( (Long) object));
+	}
+	public static void updatetaskRevision() throws NumberFormatException, EncryptedDocumentException, InvalidFormatException, IOException {
+		ExcelLib exl = new ExcelLib();
+	int rev = Integer.parseInt(exl.exceldata("Lists", 1, 8));
+	rev=rev + 1;
+	exl.updateExceldata("Login", 1, 8, Integer.toString(rev));
+	}
+	public static void updateRevisionfortask(Object object) throws NumberFormatException, EncryptedDocumentException, InvalidFormatException, IOException {
+		ExcelLib exl = new ExcelLib();
+		exl.updateExceldata("Login", 1, 2, Integer.toString((Integer) object));
+	}
 
 }
   

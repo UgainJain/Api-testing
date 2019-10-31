@@ -1,0 +1,2 @@
+Get-lists_with_id = lists/{id}
+Get-lists = lists

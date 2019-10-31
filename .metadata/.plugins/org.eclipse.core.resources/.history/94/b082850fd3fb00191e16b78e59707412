@@ -1,0 +1,65 @@
+package utils.Common;
+
+import java.io.IOException;
+import java.util.HashMap;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+
+import io.restassured.specification.RequestSpecification;
+import utils.dataSource.ExcelLib;
+import utils.dataSource.LoadProperty;
+
+public class CommonUtils {
+	public static RequestSpecification addHeader(RequestSpecification httpReq) {
+		System.out.println("qety");
+		httpReq.headers(CreateHeaderMap());
+		System.out.println(httpReq);
+		httpReq.log().all();
+		return httpReq;
+	}
+	public static HashMap<String, String> CreateHeaderMap() {
+		HashMap<String, String> headers = new HashMap<String, String>();
+		headers.put("Content-Type", LoadProperty.getvar("Content-Type", "config"));
+		headers.put("X-Client-ID", LoadProperty.getvar("ClientID", "config"));
+		headers.put("X-Access-Token",LoadProperty.getvar("Access-token", "config"));
+		return headers;
+	}
+	public static RequestSpecification addqueryParam(String key,String value,RequestSpecification httpReq) {
+		httpReq.queryParam(key, value);
+		return httpReq;
+	}
+	public static RequestSpecification addPathVariable(String key,String value,RequestSpecification httpReq) {
+		httpReq.pathParam(key, value);
+		return httpReq;
+	}
+	public static int intparser(String str) {
+		return Integer.parseInt(str);
+	} 
+	public static void updateRevisionforupdate() throws NumberFormatException, EncryptedDocumentException, InvalidFormatException, IOException {
+		ExcelLib exl = new ExcelLib();
+		int rev = Integer.parseInt(exl.exceldata("Lists", 1, 2));
+		rev=rev + 1;
+		exl.updateExceldata("Login", 1, 2, Integer.toString(rev));
+	}
+	public static void updateID(Object object) throws NumberFormatException, EncryptedDocumentException, InvalidFormatException, IOException {
+		ExcelLib exl = new ExcelLib();
+		exl.updateExceldata("Login", 1, 0, Integer.toString((Integer) object));
+	}
+	public static void updateRevision(Object object) throws NumberFormatException, EncryptedDocumentException, InvalidFormatException, IOException {
+		ExcelLib exl = new ExcelLib();
+		exl.updateExceldata("Login", 1, 2, Integer.toString((Integer) object));
+	}
+	public static void updatetaskID(Object object) throws NumberFormatException, EncryptedDocumentException, InvalidFormatException, IOException {
+		ExcelLib exl = new ExcelLib();
+		exl.updateExceldata("Login", 1, 10, Integer.toString((Integer) object));
+	}
+	public static void updatetaskRevision(Object object) throws NumberFormatException, EncryptedDocumentException, InvalidFormatException, IOException {
+		ExcelLib exl = new ExcelLib();
+	int rev = Integer.parseInt(exl.exceldata("Lists", 1, 8));
+	rev=rev + 1;
+	exl.updateExceldata("Login", 1, 2, Integer.toString(rev));
+	}
+
+}
+  

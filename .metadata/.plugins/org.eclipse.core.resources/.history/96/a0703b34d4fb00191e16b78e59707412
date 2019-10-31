@@ -1,0 +1,4 @@
+Get-lists_with_id = lists/{id}
+Get-lists = lists
+Get-lists_with_id = tasks/{id}
+Get-lists = tasks

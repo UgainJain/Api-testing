@@ -53,6 +53,29 @@ public class BaseClass {
 			httpReq = CommonUtils.addPathVariable("id", exl.exceldata("Lists", 1, 0),httpReq);
 			httpReq = CommonUtils.addqueryParam("revision", exl.exceldata("Lists", 1, 2), httpReq);;
 		}
+		else if (req.equalsIgnoreCase("gettasks")) {
+			CommonUtils.addqueryParam("list_id", exl.exceldata("Lists", 1, 12),httpReq);
+			httpReq = CommonUtils.addHeader(httpReq);
+		}
+		else if (req.equalsIgnoreCase("createtasks")) {
+			httpReq = CommonUtils.addHeader(httpReq);
+			httpReq.body(createBody(req));
+		}
+		else if (req.equalsIgnoreCase("updateputtasks")) {
+			CommonUtils.addPathVariable("id", exl.exceldata("Lists", 1, 5),httpReq);
+			httpReq.body(createBody(req));
+			httpReq = CommonUtils.addHeader(httpReq);
+		}
+		else if (req.equalsIgnoreCase("updatepatchtasks")) {
+			CommonUtils.addPathVariable("id", exl.exceldata("Lists", 1, 5),httpReq);
+			httpReq = CommonUtils.addHeader(httpReq);
+			httpReq.body(createBody(req));
+		}
+		else if (req.equalsIgnoreCase("deletetasks")) {
+			CommonUtils.addPathVariable("id", exl.exceldata("Lists", 1, 5),httpReq);
+			httpReq = CommonUtils.addHeader(httpReq);
+			CommonUtils.addqueryParam("revision", exl.exceldata("Lists", 1, 8), httpReq);
+		}
 		else {
 			System.out.println("Unspecified REquest");
 		}
@@ -73,6 +96,26 @@ public class BaseClass {
 			body.put("updateTitle",exl.exceldata("Lists", 1, 4));
 			return body;
 		}
+		else if(req.equalsIgnoreCase("createtasks")) {
+			body.put("list_id",CommonUtils.intparser( exl.exceldata("Lists", 1, 12)));
+			body.put("title",exl.exceldata("Lists", 1, 6));
+			return body;
+		}
+		else if(req.equalsIgnoreCase("updateputtasks")) {
+			body.put("revision",CommonUtils.intparser( exl.exceldata("Lists", 1, 8)));
+			body.put("title",exl.exceldata("Lists", 1,10 ));
+			return body;
+		}
+		else if(req.equalsIgnoreCase("updatepatchtasks")) {
+			body.put("revision",CommonUtils.intparser( exl.exceldata("Lists", 1, 8)));
+			body.put("title",exl.exceldata("Lists", 1,12 ));
+			return body;
+		}
+		else if (req.equalsIgnoreCase("deletetasks")) {
+			body.put("revision", CommonUtils.intparser( exl.exceldata("Lists", 1, 8)));
+			return body;
+		}
+	
 		else {
 			System.out.println("wrong logic");
 			return body;
@@ -106,6 +149,28 @@ public class BaseClass {
 		}
 		else if(req.equalsIgnoreCase("deleteList")) {
 			resp = httpReq.when().delete(LoadProperty.getvar("Get-lists_with_id", "resource"));
+			resp.then().log().all();
+			return resp;
+		}else if(req.equalsIgnoreCase("gettasks")) {
+			resp = httpReq.when().get(LoadProperty.getvar("Get-tasks", "resource"));
+			resp.then().log().all();
+			return resp;
+		}
+		else if(req.equalsIgnoreCase("createtasks")) {
+			resp = httpReq.when().post(LoadProperty.getvar("Get-tasks", "resource"));
+			resp.then().log().all();
+			return resp;
+		}else if(req.equalsIgnoreCase("updatepatchtasks")) {
+			resp = httpReq.when().patch(LoadProperty.getvar("Get-tasks_with_id", "resource"));
+			resp.then().log().all();
+			return resp;
+		}else if(req.equalsIgnoreCase("updateputtasks")) {
+			resp = httpReq.when().put(LoadProperty.getvar("Get-tasks_with_id", "resource"));
+			resp.then().log().all();
+			return resp;
+		}
+		else if(req.equalsIgnoreCase("deletetasks")) {
+			resp = httpReq.when().delete(LoadProperty.getvar("Get-tasks_with_id", "resource"));
 			resp.then().log().all();
 			return resp;
 		}

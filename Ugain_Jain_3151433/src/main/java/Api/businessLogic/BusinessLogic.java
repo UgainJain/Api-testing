@@ -98,5 +98,88 @@ public class BusinessLogic extends BaseClass{
 			return false;
 		}
 	}
+	public boolean gettasks() {
+		req = "gettasks";
+		try {
+		createrequest(req);
+		Response resp = createresponse(req);
+		
+		resp.then().assertThat().statusCode(200);
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+			return false;
+		}
+	}
+	public boolean createtasks() {
+		req = "createtasks";
+		try {
+		createrequest(req);
+		Response resp = createresponse(req);
+		
+		resp.then().assertThat().statusCode(201);
+		CommonUtils.updatetaskID(resp.jsonPath().get("id"));
+		CommonUtils.updateRevisionfortask(resp.jsonPath().get("revision"));
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+			return false;
+		}
+	}
+	
+	
+	public boolean updatepatchtasks() {
+		req = "updatepatchtasks";
+		try {
+		createrequest(req);
+		Response resp = createresponse(req);
+		
+		resp.then().assertThat().statusCode(200);
+
+		CommonUtils.updatetaskRevision();
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+			return false;
+		}
+	}
+	
+	public boolean updateputtasks() {
+		req = "updateputtasks";
+		try {
+		createrequest(req);
+		Response resp = createresponse(req);
+		
+		resp.then().assertThat().statusCode(200);
+
+		CommonUtils.updatetaskRevision();
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+
+			e.printStackTrace();
+			return false;
+		}
+	}
+	public boolean deletetasks() {
+		req = "deletetasks";
+		try {
+		createrequest(req);
+		Response resp = createresponse(req);
+		resp.then().assertThat().statusCode(204);
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+
+			e.printStackTrace();
+			return false;
+		}
+	}
 
 }
