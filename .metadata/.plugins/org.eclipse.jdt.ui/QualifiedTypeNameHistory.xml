@@ -2,13 +2,11 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.google.gson.Gson"/>
-<fullyQualifiedTypeName name="io.restassured.http.ContentType"/>
 <fullyQualifiedTypeName name="com.google.gson.JsonObject"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="io.restassured.RestAssured"/>
 <fullyQualifiedTypeName name="utils.dataSource.LoadProperty"/>
-<fullyQualifiedTypeName name="io.restassured.specification.RequestSpecification"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="org.testng.Assert"/>
@@ -19,4 +17,17 @@
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
 <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="org.apache.log4j.PropertyConfigurator"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Level"/>
+<fullyQualifiedTypeName name="io.restassured.specification.RequestSpecification"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="io.restassured.config.RestAssuredConfig"/>
+<fullyQualifiedTypeName name="io.restassured.config.LogConfig"/>
+<fullyQualifiedTypeName name="io.restassured.builder.RequestSpecBuilder"/>
+<fullyQualifiedTypeName name="io.restassured.filter.log.ResponseLoggingFilter"/>
+<fullyQualifiedTypeName name="io.restassured.filter.log.RequestLoggingFilter"/>
+<fullyQualifiedTypeName name="io.restassured.http.ContentType"/>
+<fullyQualifiedTypeName name="utils.Base.BaseClass"/>
+<fullyQualifiedTypeName name="com.relevantcodes.extentreports.LogStatus"/>
 </qualifiedTypeNameHistroy>

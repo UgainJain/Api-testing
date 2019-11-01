@@ -12,7 +12,6 @@ import utils.dataSource.LoadProperty;
 
 public class CommonUtils {
 	public static RequestSpecification addHeader(RequestSpecification httpReq) {
-		System.out.println("qety");
 		httpReq.headers(CreateHeaderMap());
 		System.out.println(httpReq);
 		httpReq.log().all();
@@ -62,8 +61,12 @@ public class CommonUtils {
 	}
 	public static void updateRevisionfortask(Object object) throws NumberFormatException, EncryptedDocumentException, InvalidFormatException, IOException {
 		ExcelLib exl = new ExcelLib();
-		exl.updateExceldata("Login", 1, 2, Integer.toString((Integer) object));
+		exl.updateExceldata("Login", 1, 8, Integer.toString((Integer) object));
 	}
+//	public static void updatetaskRevision(Object object) throws NumberFormatException, EncryptedDocumentException, InvalidFormatException, IOException {
+//		ExcelLib exl = new ExcelLib();
+//		exl.updateExceldata("Login", 1, 8, Integer.toString((Integer) object));
+//	}
 
 }
   

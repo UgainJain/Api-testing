@@ -1,0 +1,81 @@
+package Api;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+import Api.businessLogic.BusinessLogic;
+import utils.Base.BaseClass;
+import utils.dataSource.ExcelLib;
+
+public class Demo extends BaseClass{
+	ExcelLib exl;
+
+	BusinessLogic bl = new BusinessLogic();
+	@BeforeSuite
+	public void before() {
+		BusinessLogic bl = new BusinessLogic();
+		exl = new ExcelLib();
+		bl.beforeAll();
+	}
+	
+@Test
+public void test1() {
+	Assert.assertTrue(bl.getLists());
+	
+}
+
+@Test
+public void test2() {
+
+	Assert.assertTrue(bl.createList());
+}
+
+@Test
+public void test3() {
+
+	Assert.assertTrue(bl.getspecificList());
+}
+
+@Test
+public void test4() {
+	
+	Assert.assertTrue(bl.updateputList());}
+
+@Test
+public void test5() {
+	Assert.assertTrue(bl.updatepatchList());}
+
+@Test
+public void test6() {
+	Assert.assertTrue(bl.deleteLists());}
+
+@Test
+public void test7() {
+	Assert.assertTrue(bl.gettasks());}
+
+@Test
+public void test9() {
+	Assert.assertTrue(bl.createtasks());}
+
+@Test
+public void test10() {
+	Assert.assertTrue(bl.updatepatchtasks());
+}
+
+@Test
+public void test11() {
+	Assert.assertTrue(bl.updateputtasks());}
+
+@Test
+public void test12() {
+	Assert.assertTrue(bl.deletetasks());
+	}
+@AfterMethod
+public void flush() {
+	if (reports != null) {
+	reports.flush();
+}
+}
+}

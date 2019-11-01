@@ -1,0 +1,246 @@
+package Api.businessLogic;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import utils.Base.BaseClass;
+import utils.Common.CommonUtils;
+
+public class BusinessLogic extends BaseClass{
+	String req = null;
+	static Logger logger;
+	public void beforeAll() {
+		logger = Logger.getLogger("APiTesting");
+		PropertyConfigurator.configure("log4j.properties");
+		logger.setLevel(Level.DEBUG);
+	}
+	public boolean getLists() {
+		logger.info("Running \"getalllists\" function");
+		req = "getalllists";
+		try {
+		logger.info("Creating Request ");
+		RequestSpecification httpReq = createrequest(req);
+		httpReq.log().all();
+		Response resp = createresponse(req);
+		logger.info("Response generated");
+		System.out.println(resp.prettyPrint());
+
+		logger.info("Response:"+resp.prettyPrint());
+		resp.then().log().ifError().assertThat().statusCode(200);
+		logger.info("\"getalllists\" passed");
+		return true;
+		}
+		catch(Exception e) {
+			logger.info("\"getalllists\"0 function failed");
+			logger.info("Request :"+httpReq.log().all());
+			logger.info("Response:"+resp.prettyPrint());
+			System.out.println(e.getMessage());
+			return false;
+		}
+	}
+	public boolean deleteLists() {
+		req = "deleteList";
+
+		logger.info("Running \"deleteList\" function");
+		try {
+			logger.info("Creating Request ");
+		createrequest(req);
+		Response resp = createresponse(req);
+		req = "deleteList";
+
+		logger.info("Response generated");
+		resp.then().assertThat().statusCode(204);
+
+		logger.info("Response:"+resp.prettyPrint());
+		return true;
+		}
+		catch(Exception e) {
+			
+			System.out.println(e.getMessage());
+			return false;
+		}
+	}
+	public boolean getspecificList() {
+		req = "getSpecificList";
+		logger.info("Running \"getSpecificList\" function");
+		try {
+
+			logger.info("Creating Request ");
+		createrequest(req);
+		Response resp = createresponse(req);
+
+		logger.info("Response generated");
+		resp.then().assertThat().statusCode(200);
+		logger.info("Response:"+resp.prettyPrint());
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+			return false;
+		}
+	}
+	public boolean createList() {
+		req = "createlist";
+		logger.info("Running \"createlist\" function");
+		try {
+		createrequest(req);
+		Response resp = createresponse(req);
+
+		logger.info("Response generated");
+		resp.then().assertThat().statusCode(201);
+		CommonUtils.updateID(resp.jsonPath().get("id"));
+		CommonUtils.updateRevision(resp.jsonPath().get("revision"));
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+			return false;
+		}
+	}
+	public boolean updatepatchList() {
+		req = "updatepatchList";
+		try {
+
+			logger.info("Creating Request ");
+		createrequest(req);
+		Response resp = createresponse(req);
+		
+		resp.then().assertThat().statusCode(200);
+
+		logger.info("Response generated");
+		logger.info("Response:"+resp.prettyPrint());
+		CommonUtils.updateRevisionforupdate();
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+			return false;
+		}
+	}
+	
+	public boolean updateputList() {
+		req = "updateputList";
+		try {
+
+			logger.info("Creating Request ");
+		createrequest(req);
+		Response resp = createresponse(req);
+
+		logger.info("Response generated");
+		resp.then().assertThat().statusCode(200);
+		logger.info("Response:"+resp.prettyPrint());
+		CommonUtils.updateRevisionforupdate();
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+			return false;
+		}
+	}
+	public boolean gettasks() {
+		req = "gettasks";
+		try {
+
+			logger.info("Creating Request ");
+		createrequest(req);
+		Response resp = createresponse(req);
+
+		logger.info("Response generated");
+		resp.then().assertThat().statusCode(200);
+		logger.info("Response:"+resp.prettyPrint());
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+			return false;
+		}
+	}
+	public boolean createtasks() {
+		req = "createtasks";
+		try {
+
+			logger.info("Creating Request ");
+		createrequest(req);
+		Response resp = createresponse(req);
+
+		logger.info("Response generated");
+		resp.then().assertThat().statusCode(201);
+		logger.info("Response:"+resp.prettyPrint());
+		CommonUtils.updatetaskID(resp.jsonPath().get("id"));
+		CommonUtils.updateRevisionfortask(resp.jsonPath().get("revision"));
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+			return false;
+		}
+	}
+	
+	
+	public boolean updatepatchtasks() {
+		req = "updatepatchtasks";
+		try {
+
+			logger.info("Creating Request ");
+		createrequest(req);
+		Response resp = createresponse(req);
+
+		logger.info("Response generated");
+		resp.then().assertThat().statusCode(200);
+
+		CommonUtils.updatetaskRevision();
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+			return false;
+		}
+	}
+	
+	public boolean updateputtasks() {
+		req = "updateputtasks";
+		try {
+
+			logger.info("Creating Request ");
+		createrequest(req);
+		Response resp = createresponse(req);
+
+		logger.info("Response generated");
+		resp.then().assertThat().statusCode(200);
+
+		CommonUtils.updatetaskRevision();
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+
+			e.printStackTrace();
+			return false;
+		}
+	}
+	public boolean deletetasks() {
+		req = "deletetasks";
+		try {
+
+			logger.info("Creating Request ");
+		createrequest(req);
+		Response resp = createresponse(req);
+
+		logger.info("Response generated");
+		resp.then().assertThat().statusCode(204);
+		return true;
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+
+			e.printStackTrace();
+			return false;
+		}
+	}
+
+}

@@ -1,0 +1,5063 @@
+2019-11-01 12:05:56 INFO  APiTesting:18 - Running "getalllists" function
+2019-11-01 12:20:53 INFO  APiTesting:19 - Running "getalllists" function
+2019-11-01 12:20:53 INFO  APiTesting:22 - Creating Request 
+2019-11-01 12:20:56 INFO  APiTesting:25 - Response generated
+2019-11-01 12:20:56 INFO  APiTesting:27 - "getalllists" passed
+2019-11-01 12:21:36 INFO  APiTesting:19 - Running "getalllists" function
+2019-11-01 12:21:36 INFO  APiTesting:22 - Creating Request 
+2019-11-01 12:21:38 INFO  APiTesting:25 - Response generated
+2019-11-01 12:49:54 INFO  APiTesting:19 - Running "getalllists" function
+2019-11-01 12:49:54 INFO  APiTesting:22 - Creating Request 
+2019-11-01 12:49:56 INFO  APiTesting:25 - Response generated
+2019-11-01 12:59:31 INFO  APiTesting:19 - Running "getalllists" function
+2019-11-01 12:59:31 INFO  APiTesting:22 - Creating Request 
+2019-11-01 12:59:33 INFO  APiTesting:25 - Response generated
+2019-11-01 13:06:19 INFO  APiTesting:19 - Running "getalllists" function
+2019-11-01 13:06:19 INFO  APiTesting:22 - Creating Request 
+2019-11-01 13:06:22 INFO  APiTesting:25 - Response generated
+2019-11-01 13:09:36 INFO  APiTesting:21 - Running "getalllists" function
+2019-11-01 13:09:36 INFO  APiTesting:24 - Creating Request 
+2019-11-01 13:09:39 INFO  APiTesting:27 - Response generated
+2019-11-01 13:10:22 INFO  APiTesting:21 - Running "getalllists" function
+2019-11-01 13:10:22 INFO  APiTesting:24 - Creating Request 
+2019-11-01 13:10:25 INFO  APiTesting:27 - Response generated
+2019-11-01 13:11:17 INFO  APiTesting:21 - Running "getalllists" function
+2019-11-01 13:11:17 INFO  APiTesting:24 - Creating Request 
+2019-11-01 13:11:20 INFO  APiTesting:27 - Response generated
+2019-11-01 13:11:38 INFO  APiTesting:21 - Running "getalllists" function
+2019-11-01 13:11:38 INFO  APiTesting:24 - Creating Request 
+2019-11-01 13:11:41 INFO  APiTesting:27 - Response generated
+2019-11-01 13:11:41 INFO  APiTesting:30 - "getalllists" passed
+2019-11-01 13:17:02 INFO  APiTesting:21 - Running "getalllists" function
+2019-11-01 13:17:02 INFO  APiTesting:24 - Creating Request 
+2019-11-01 13:17:05 INFO  APiTesting:27 - Response generated
+2019-11-01 13:17:05 INFO  APiTesting:30 - "getalllists" passed
+2019-11-01 13:17:50 INFO  APiTesting:21 - Running "getalllists" function
+2019-11-01 13:17:50 INFO  APiTesting:24 - Creating Request 
+2019-11-01 13:17:52 INFO  APiTesting:28 - Response generated
+2019-11-01 13:17:52 INFO  APiTesting:31 - "getalllists" passed
+2019-11-01 13:49:07 INFO  APiTesting:21 - Running "getalllists" function
+2019-11-01 13:49:07 INFO  APiTesting:24 - Creating Request 
+2019-11-01 13:49:10 INFO  APiTesting:28 - Response generated
+2019-11-01 13:49:10 INFO  APiTesting:31 - "getalllists" passed
+2019-11-01 13:49:35 INFO  APiTesting:21 - Running "getalllists" function
+2019-11-01 13:49:35 INFO  APiTesting:24 - Creating Request 
+2019-11-01 13:49:38 INFO  APiTesting:28 - Response generated
+2019-11-01 13:50:19 INFO  APiTesting:21 - Running "getalllists" function
+2019-11-01 13:50:19 INFO  APiTesting:24 - Creating Request 
+2019-11-01 13:50:23 INFO  APiTesting:28 - Response generated
+2019-11-01 13:50:23 INFO  APiTesting:31 - Response:{
+    "invalid_request": true
+}
+2019-11-01 17:30:44 INFO  APiTesting:24 - Running "getalllists" function
+2019-11-01 17:30:44 INFO  APiTesting:28 - Creating Request 
+2019-11-01 17:30:46 INFO  APiTesting:32 - Response generated
+2019-11-01 17:30:46 INFO  APiTesting:35 - Response:[
+    {
+        "id": 408399527,
+        "title": "inbox",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:40.590Z",
+        "type": "list"
+    },
+    {
+        "id": 408399548,
+        "title": "Groceries",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-23T07:03:58.557Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw8d66ab18bf056ce36c892fdbe0dc03",
+        "type": "list"
+    },
+    {
+        "id": 408399549,
+        "title": "Work",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwc470df41611e8ff0c282ed59a03be7",
+        "type": "list"
+    },
+    {
+        "id": 408399550,
+        "title": "Travel",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw34d49f5522933c98fc2bde40d8f124",
+        "type": "list"
+    },
+    {
+        "id": 408399551,
+        "title": "Family",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lweeec83a40c5f0a9a90ffa0e97246e0",
+        "type": "list"
+    },
+    {
+        "id": 408399552,
+        "title": "Movies to Watch",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwa769d0e5a64056376452c57d0fd383",
+        "type": "list"
+    },
+    {
+        "id": 408399553,
+        "title": "Private",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.636Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwf02894d7eec600a1487bc63a132088",
+        "type": "list"
+    },
+    {
+        "id": 408484263,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 41,
+        "created_at": "2019-10-24T06:10:12.393Z",
+        "type": "list"
+    },
+    {
+        "id": 408964293,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T08:03:12.784Z",
+        "type": "list"
+    },
+    {
+        "id": 408969100,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:00.755Z",
+        "type": "list"
+    },
+    {
+        "id": 408969109,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:07.815Z",
+        "type": "list"
+    },
+    {
+        "id": 409039667,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:05:40.189Z",
+        "type": "list"
+    },
+    {
+        "id": 409039720,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:07:40.051Z",
+        "type": "list"
+    },
+    {
+        "id": 409039739,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T05:08:36.950Z",
+        "type": "list"
+    },
+    {
+        "id": 409039755,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:09:22.777Z",
+        "type": "list"
+    },
+    {
+        "id": 409042714,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:32:20.117Z",
+        "type": "list"
+    },
+    {
+        "id": 409042874,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:36:09.983Z",
+        "type": "list"
+    },
+    {
+        "id": 409043377,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:48:33.337Z",
+        "type": "list"
+    },
+    {
+        "id": 409043775,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:58:00.371Z",
+        "type": "list"
+    },
+    {
+        "id": 409043811,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T06:58:57.236Z",
+        "type": "list"
+    },
+    {
+        "id": 409045819,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:41:06.412Z",
+        "type": "list"
+    },
+    {
+        "id": 409045950,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:43:24.807Z",
+        "type": "list"
+    },
+    {
+        "id": 409046072,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:45:21.253Z",
+        "type": "list"
+    },
+    {
+        "id": 409060435,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T11:47:33.123Z",
+        "type": "list"
+    }
+]
+2019-11-01 17:30:46 INFO  APiTesting:37 - "getalllists" passed
+2019-11-01 17:33:01 INFO  APiTesting:24 - Running "getalllists" function
+2019-11-01 17:33:01 INFO  APiTesting:28 - Creating Request 
+2019-11-01 17:33:04 INFO  APiTesting:32 - Response generated
+2019-11-01 17:33:04 INFO  APiTesting:35 - Response:[
+    {
+        "id": 408399527,
+        "title": "inbox",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:40.590Z",
+        "type": "list"
+    },
+    {
+        "id": 408399548,
+        "title": "Groceries",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-23T07:03:58.557Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw8d66ab18bf056ce36c892fdbe0dc03",
+        "type": "list"
+    },
+    {
+        "id": 408399549,
+        "title": "Work",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwc470df41611e8ff0c282ed59a03be7",
+        "type": "list"
+    },
+    {
+        "id": 408399550,
+        "title": "Travel",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw34d49f5522933c98fc2bde40d8f124",
+        "type": "list"
+    },
+    {
+        "id": 408399551,
+        "title": "Family",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lweeec83a40c5f0a9a90ffa0e97246e0",
+        "type": "list"
+    },
+    {
+        "id": 408399552,
+        "title": "Movies to Watch",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwa769d0e5a64056376452c57d0fd383",
+        "type": "list"
+    },
+    {
+        "id": 408399553,
+        "title": "Private",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.636Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwf02894d7eec600a1487bc63a132088",
+        "type": "list"
+    },
+    {
+        "id": 408484263,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 41,
+        "created_at": "2019-10-24T06:10:12.393Z",
+        "type": "list"
+    },
+    {
+        "id": 408964293,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T08:03:12.784Z",
+        "type": "list"
+    },
+    {
+        "id": 408969100,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:00.755Z",
+        "type": "list"
+    },
+    {
+        "id": 408969109,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:07.815Z",
+        "type": "list"
+    },
+    {
+        "id": 409039667,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:05:40.189Z",
+        "type": "list"
+    },
+    {
+        "id": 409039720,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:07:40.051Z",
+        "type": "list"
+    },
+    {
+        "id": 409039739,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T05:08:36.950Z",
+        "type": "list"
+    },
+    {
+        "id": 409039755,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:09:22.777Z",
+        "type": "list"
+    },
+    {
+        "id": 409042714,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:32:20.117Z",
+        "type": "list"
+    },
+    {
+        "id": 409042874,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:36:09.983Z",
+        "type": "list"
+    },
+    {
+        "id": 409043377,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:48:33.337Z",
+        "type": "list"
+    },
+    {
+        "id": 409043775,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:58:00.371Z",
+        "type": "list"
+    },
+    {
+        "id": 409043811,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T06:58:57.236Z",
+        "type": "list"
+    },
+    {
+        "id": 409045819,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:41:06.412Z",
+        "type": "list"
+    },
+    {
+        "id": 409045950,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:43:24.807Z",
+        "type": "list"
+    },
+    {
+        "id": 409046072,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:45:21.253Z",
+        "type": "list"
+    },
+    {
+        "id": 409060435,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T11:47:33.123Z",
+        "type": "list"
+    }
+]
+2019-11-01 17:33:04 INFO  APiTesting:37 - "getalllists" passed
+2019-11-01 17:47:35 INFO  APiTesting:25 - Running "getalllists" function
+2019-11-01 17:47:35 INFO  APiTesting:29 - Creating Request 
+2019-11-01 17:47:37 INFO  APiTesting:34 - Response generated
+2019-11-01 17:47:37 INFO  APiTesting:37 - Response:[
+    {
+        "id": 408399527,
+        "title": "inbox",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:40.590Z",
+        "type": "list"
+    },
+    {
+        "id": 408399548,
+        "title": "Groceries",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-23T07:03:58.557Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw8d66ab18bf056ce36c892fdbe0dc03",
+        "type": "list"
+    },
+    {
+        "id": 408399549,
+        "title": "Work",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwc470df41611e8ff0c282ed59a03be7",
+        "type": "list"
+    },
+    {
+        "id": 408399550,
+        "title": "Travel",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw34d49f5522933c98fc2bde40d8f124",
+        "type": "list"
+    },
+    {
+        "id": 408399551,
+        "title": "Family",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lweeec83a40c5f0a9a90ffa0e97246e0",
+        "type": "list"
+    },
+    {
+        "id": 408399552,
+        "title": "Movies to Watch",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwa769d0e5a64056376452c57d0fd383",
+        "type": "list"
+    },
+    {
+        "id": 408399553,
+        "title": "Private",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.636Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwf02894d7eec600a1487bc63a132088",
+        "type": "list"
+    },
+    {
+        "id": 408484263,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 41,
+        "created_at": "2019-10-24T06:10:12.393Z",
+        "type": "list"
+    },
+    {
+        "id": 408964293,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T08:03:12.784Z",
+        "type": "list"
+    },
+    {
+        "id": 408969100,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:00.755Z",
+        "type": "list"
+    },
+    {
+        "id": 408969109,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:07.815Z",
+        "type": "list"
+    },
+    {
+        "id": 409039667,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:05:40.189Z",
+        "type": "list"
+    },
+    {
+        "id": 409039720,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:07:40.051Z",
+        "type": "list"
+    },
+    {
+        "id": 409039739,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T05:08:36.950Z",
+        "type": "list"
+    },
+    {
+        "id": 409039755,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:09:22.777Z",
+        "type": "list"
+    },
+    {
+        "id": 409042714,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:32:20.117Z",
+        "type": "list"
+    },
+    {
+        "id": 409042874,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:36:09.983Z",
+        "type": "list"
+    },
+    {
+        "id": 409043377,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:48:33.337Z",
+        "type": "list"
+    },
+    {
+        "id": 409043775,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:58:00.371Z",
+        "type": "list"
+    },
+    {
+        "id": 409043811,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T06:58:57.236Z",
+        "type": "list"
+    },
+    {
+        "id": 409045819,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:41:06.412Z",
+        "type": "list"
+    },
+    {
+        "id": 409045950,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:43:24.807Z",
+        "type": "list"
+    },
+    {
+        "id": 409046072,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:45:21.253Z",
+        "type": "list"
+    },
+    {
+        "id": 409060435,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T11:47:33.123Z",
+        "type": "list"
+    }
+]
+2019-11-01 17:47:37 INFO  APiTesting:41 - "getalllists" passed
+2019-11-01 17:47:38 INFO  APiTesting:108 - Running "createlist" function
+2019-11-01 17:47:39 INFO  APiTesting:115 - Response generated
+2019-11-01 17:47:39 INFO  APiTesting:84 - Running "getSpecificList" function
+2019-11-01 17:47:39 INFO  APiTesting:89 - Creating Request 
+2019-11-01 17:47:40 INFO  APiTesting:93 - Response generated
+2019-11-01 17:47:41 INFO  APiTesting:95 - Response:{
+    "id": 409134344,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 1,
+    "created_at": "2019-11-01T12:17:37.806Z",
+    "type": "list"
+}
+2019-11-01 17:47:41 INFO  APiTesting:158 - Creating Request 
+2019-11-01 17:47:41 INFO  APiTesting:162 - Response generated
+2019-11-01 17:47:41 INFO  APiTesting:165 - Response:{
+    "id": 409134344,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 2,
+    "created_at": "2019-11-01T12:17:37.806Z",
+    "type": "list"
+}
+2019-11-01 17:47:41 INFO  APiTesting:134 - Creating Request 
+2019-11-01 17:47:43 INFO  APiTesting:140 - Response generated
+2019-11-01 17:47:43 INFO  APiTesting:141 - Response:{
+    "id": 409134344,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 3,
+    "created_at": "2019-11-01T12:17:37.806Z",
+    "type": "list"
+}
+2019-11-01 17:47:43 INFO  APiTesting:58 - Running "deleteList" function
+2019-11-01 17:47:43 INFO  APiTesting:60 - Creating Request 
+2019-11-01 17:47:44 INFO  APiTesting:67 - Response generated
+2019-11-01 17:47:44 INFO  APiTesting:70 - Response:
+2019-11-01 17:47:44 INFO  APiTesting:181 - Creating Request 
+2019-11-01 17:47:45 INFO  APiTesting:185 - Response generated
+2019-11-01 17:47:45 INFO  APiTesting:188 - Response:[
+    {
+        "id": 5544808087,
+        "created_at": "2019-10-31T09:37:14.745Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "qwerty",
+        "type": "task"
+    },
+    {
+        "id": 5544981454,
+        "created_at": "2019-10-31T10:54:08.974Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "qwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545112042,
+        "created_at": "2019-10-31T11:48:54.430Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545116188,
+        "created_at": "2019-10-31T11:50:35.406Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545119092,
+        "created_at": "2019-10-31T11:51:45.592Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545124133,
+        "created_at": "2019-10-31T11:53:50.531Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545129020,
+        "created_at": "2019-10-31T11:55:51.594Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545146915,
+        "created_at": "2019-10-31T12:03:12.387Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545149146,
+        "created_at": "2019-10-31T12:04:07.929Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545162505,
+        "created_at": "2019-10-31T12:09:36.598Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545165532,
+        "created_at": "2019-10-31T12:10:40.608Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 4,
+        "title": "408484263",
+        "type": "task"
+    },
+    {
+        "id": 5545202340,
+        "created_at": "2019-10-31T12:25:28.003Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545203447,
+        "created_at": "2019-10-31T12:25:55.175Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545206243,
+        "created_at": "2019-10-31T12:27:01.726Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545226793,
+        "created_at": "2019-10-31T12:34:40.049Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545229079,
+        "created_at": "2019-10-31T12:35:36.250Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545236345,
+        "created_at": "2019-10-31T12:38:24.986Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545237864,
+        "created_at": "2019-10-31T12:38:59.580Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 4,
+        "title": "408484263",
+        "type": "task"
+    },
+    {
+        "id": 5545240402,
+        "created_at": "2019-10-31T12:40:03.194Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545241481,
+        "created_at": "2019-10-31T12:40:30.192Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545245859,
+        "created_at": "2019-10-31T12:42:17.159Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    }
+]
+2019-11-01 17:47:45 INFO  APiTesting:203 - Creating Request 
+2019-11-01 17:47:46 INFO  APiTesting:207 - Response generated
+2019-11-01 17:47:46 INFO  APiTesting:210 - Response:{
+    "id": 5547939207,
+    "created_at": "2019-11-01T12:17:44.639Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 1,
+    "title": "taskqwerty",
+    "type": "task"
+}
+2019-11-01 17:47:46 INFO  APiTesting:230 - Creating Request 
+2019-11-01 17:47:47 INFO  APiTesting:234 - Response generated
+2019-11-01 17:49:20 INFO  APiTesting:25 - Running "getalllists" function
+2019-11-01 17:49:20 INFO  APiTesting:29 - Creating Request 
+2019-11-01 17:49:23 INFO  APiTesting:34 - Response generated
+2019-11-01 17:49:23 INFO  APiTesting:37 - Response:[
+    {
+        "id": 408399527,
+        "title": "inbox",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:40.590Z",
+        "type": "list"
+    },
+    {
+        "id": 408399548,
+        "title": "Groceries",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-23T07:03:58.557Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw8d66ab18bf056ce36c892fdbe0dc03",
+        "type": "list"
+    },
+    {
+        "id": 408399549,
+        "title": "Work",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwc470df41611e8ff0c282ed59a03be7",
+        "type": "list"
+    },
+    {
+        "id": 408399550,
+        "title": "Travel",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw34d49f5522933c98fc2bde40d8f124",
+        "type": "list"
+    },
+    {
+        "id": 408399551,
+        "title": "Family",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lweeec83a40c5f0a9a90ffa0e97246e0",
+        "type": "list"
+    },
+    {
+        "id": 408399552,
+        "title": "Movies to Watch",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwa769d0e5a64056376452c57d0fd383",
+        "type": "list"
+    },
+    {
+        "id": 408399553,
+        "title": "Private",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.636Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwf02894d7eec600a1487bc63a132088",
+        "type": "list"
+    },
+    {
+        "id": 408484263,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 42,
+        "created_at": "2019-10-24T06:10:12.393Z",
+        "type": "list"
+    },
+    {
+        "id": 408964293,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T08:03:12.784Z",
+        "type": "list"
+    },
+    {
+        "id": 408969100,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:00.755Z",
+        "type": "list"
+    },
+    {
+        "id": 408969109,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:07.815Z",
+        "type": "list"
+    },
+    {
+        "id": 409039667,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:05:40.189Z",
+        "type": "list"
+    },
+    {
+        "id": 409039720,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:07:40.051Z",
+        "type": "list"
+    },
+    {
+        "id": 409039739,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T05:08:36.950Z",
+        "type": "list"
+    },
+    {
+        "id": 409039755,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:09:22.777Z",
+        "type": "list"
+    },
+    {
+        "id": 409042714,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:32:20.117Z",
+        "type": "list"
+    },
+    {
+        "id": 409042874,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:36:09.983Z",
+        "type": "list"
+    },
+    {
+        "id": 409043377,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:48:33.337Z",
+        "type": "list"
+    },
+    {
+        "id": 409043775,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:58:00.371Z",
+        "type": "list"
+    },
+    {
+        "id": 409043811,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T06:58:57.236Z",
+        "type": "list"
+    },
+    {
+        "id": 409045819,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:41:06.412Z",
+        "type": "list"
+    },
+    {
+        "id": 409045950,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:43:24.807Z",
+        "type": "list"
+    },
+    {
+        "id": 409046072,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:45:21.253Z",
+        "type": "list"
+    },
+    {
+        "id": 409060435,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T11:47:33.123Z",
+        "type": "list"
+    }
+]
+2019-11-01 17:49:23 INFO  APiTesting:41 - "getalllists" passed
+2019-11-01 17:49:23 INFO  APiTesting:108 - Running "createlist" function
+2019-11-01 17:49:25 INFO  APiTesting:115 - Response generated
+2019-11-01 17:49:25 INFO  APiTesting:84 - Running "getSpecificList" function
+2019-11-01 17:49:25 INFO  APiTesting:89 - Creating Request 
+2019-11-01 17:49:26 INFO  APiTesting:93 - Response generated
+2019-11-01 17:49:26 INFO  APiTesting:95 - Response:{
+    "id": 409134457,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 1,
+    "created_at": "2019-11-01T12:19:23.536Z",
+    "type": "list"
+}
+2019-11-01 17:49:26 INFO  APiTesting:158 - Creating Request 
+2019-11-01 17:49:28 INFO  APiTesting:162 - Response generated
+2019-11-01 17:49:28 INFO  APiTesting:165 - Response:{
+    "id": 409134457,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 2,
+    "created_at": "2019-11-01T12:19:23.536Z",
+    "type": "list"
+}
+2019-11-01 17:49:28 INFO  APiTesting:134 - Creating Request 
+2019-11-01 17:49:29 INFO  APiTesting:140 - Response generated
+2019-11-01 17:49:29 INFO  APiTesting:141 - Response:{
+    "id": 409134457,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 3,
+    "created_at": "2019-11-01T12:19:23.536Z",
+    "type": "list"
+}
+2019-11-01 17:49:29 INFO  APiTesting:58 - Running "deleteList" function
+2019-11-01 17:49:29 INFO  APiTesting:60 - Creating Request 
+2019-11-01 17:49:30 INFO  APiTesting:67 - Response generated
+2019-11-01 17:49:30 INFO  APiTesting:70 - Response:
+2019-11-01 17:49:30 INFO  APiTesting:181 - Creating Request 
+2019-11-01 17:49:31 INFO  APiTesting:185 - Response generated
+2019-11-01 17:49:31 INFO  APiTesting:188 - Response:[
+    {
+        "id": 5544808087,
+        "created_at": "2019-10-31T09:37:14.745Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "qwerty",
+        "type": "task"
+    },
+    {
+        "id": 5544981454,
+        "created_at": "2019-10-31T10:54:08.974Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "qwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545112042,
+        "created_at": "2019-10-31T11:48:54.430Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545116188,
+        "created_at": "2019-10-31T11:50:35.406Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545119092,
+        "created_at": "2019-10-31T11:51:45.592Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545124133,
+        "created_at": "2019-10-31T11:53:50.531Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545129020,
+        "created_at": "2019-10-31T11:55:51.594Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545146915,
+        "created_at": "2019-10-31T12:03:12.387Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545149146,
+        "created_at": "2019-10-31T12:04:07.929Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545162505,
+        "created_at": "2019-10-31T12:09:36.598Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545165532,
+        "created_at": "2019-10-31T12:10:40.608Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 4,
+        "title": "408484263",
+        "type": "task"
+    },
+    {
+        "id": 5545202340,
+        "created_at": "2019-10-31T12:25:28.003Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545203447,
+        "created_at": "2019-10-31T12:25:55.175Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545206243,
+        "created_at": "2019-10-31T12:27:01.726Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545226793,
+        "created_at": "2019-10-31T12:34:40.049Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545229079,
+        "created_at": "2019-10-31T12:35:36.250Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545236345,
+        "created_at": "2019-10-31T12:38:24.986Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545237864,
+        "created_at": "2019-10-31T12:38:59.580Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 4,
+        "title": "408484263",
+        "type": "task"
+    },
+    {
+        "id": 5545240402,
+        "created_at": "2019-10-31T12:40:03.194Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545241481,
+        "created_at": "2019-10-31T12:40:30.192Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545245859,
+        "created_at": "2019-10-31T12:42:17.159Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5547939207,
+        "created_at": "2019-11-01T12:17:44.639Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    }
+]
+2019-11-01 17:49:31 INFO  APiTesting:203 - Creating Request 
+2019-11-01 17:49:32 INFO  APiTesting:207 - Response generated
+2019-11-01 17:49:32 INFO  APiTesting:210 - Response:{
+    "id": 5547943761,
+    "created_at": "2019-11-01T12:19:30.712Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 1,
+    "title": "taskqwerty",
+    "type": "task"
+}
+2019-11-01 17:49:32 INFO  APiTesting:230 - Creating Request 
+2019-11-01 17:49:33 INFO  APiTesting:234 - Response generated
+2019-11-01 17:49:33 INFO  APiTesting:237 - Response:{
+    "id": 5547943761,
+    "created_at": "2019-11-01T12:19:30.712Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 2,
+    "title": "408484263",
+    "type": "task"
+}
+2019-11-01 17:49:33 INFO  APiTesting:255 - Creating Request 
+2019-11-01 17:49:34 INFO  APiTesting:259 - Response generated
+2019-11-01 17:49:34 INFO  APiTesting:262 - Response:{
+    "id": 5547943761,
+    "created_at": "2019-11-01T12:19:30.712Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 3,
+    "title": "5545149146",
+    "type": "task"
+}
+2019-11-01 17:49:34 INFO  APiTesting:280 - Creating Request 
+2019-11-01 17:49:35 INFO  APiTesting:284 - Response generated
+2019-11-01 17:49:35 INFO  APiTesting:287 - Response:
+2019-11-01 17:56:23 INFO  APiTesting:25 - Running "getalllists" function
+2019-11-01 17:56:23 INFO  APiTesting:29 - Creating Request 
+2019-11-01 17:56:26 INFO  APiTesting:34 - Response generated
+2019-11-01 17:56:26 INFO  APiTesting:37 - Response:[
+    {
+        "id": 408399527,
+        "title": "inbox",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:40.590Z",
+        "type": "list"
+    },
+    {
+        "id": 408399548,
+        "title": "Groceries",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-23T07:03:58.557Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw8d66ab18bf056ce36c892fdbe0dc03",
+        "type": "list"
+    },
+    {
+        "id": 408399549,
+        "title": "Work",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwc470df41611e8ff0c282ed59a03be7",
+        "type": "list"
+    },
+    {
+        "id": 408399550,
+        "title": "Travel",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw34d49f5522933c98fc2bde40d8f124",
+        "type": "list"
+    },
+    {
+        "id": 408399551,
+        "title": "Family",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lweeec83a40c5f0a9a90ffa0e97246e0",
+        "type": "list"
+    },
+    {
+        "id": 408399552,
+        "title": "Movies to Watch",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwa769d0e5a64056376452c57d0fd383",
+        "type": "list"
+    },
+    {
+        "id": 408399553,
+        "title": "Private",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.636Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwf02894d7eec600a1487bc63a132088",
+        "type": "list"
+    },
+    {
+        "id": 408484263,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 46,
+        "created_at": "2019-10-24T06:10:12.393Z",
+        "type": "list"
+    },
+    {
+        "id": 408964293,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T08:03:12.784Z",
+        "type": "list"
+    },
+    {
+        "id": 408969100,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:00.755Z",
+        "type": "list"
+    },
+    {
+        "id": 408969109,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:07.815Z",
+        "type": "list"
+    },
+    {
+        "id": 409039667,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:05:40.189Z",
+        "type": "list"
+    },
+    {
+        "id": 409039720,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:07:40.051Z",
+        "type": "list"
+    },
+    {
+        "id": 409039739,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T05:08:36.950Z",
+        "type": "list"
+    },
+    {
+        "id": 409039755,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:09:22.777Z",
+        "type": "list"
+    },
+    {
+        "id": 409042714,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:32:20.117Z",
+        "type": "list"
+    },
+    {
+        "id": 409042874,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:36:09.983Z",
+        "type": "list"
+    },
+    {
+        "id": 409043377,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:48:33.337Z",
+        "type": "list"
+    },
+    {
+        "id": 409043775,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:58:00.371Z",
+        "type": "list"
+    },
+    {
+        "id": 409043811,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T06:58:57.236Z",
+        "type": "list"
+    },
+    {
+        "id": 409045819,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:41:06.412Z",
+        "type": "list"
+    },
+    {
+        "id": 409045950,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:43:24.807Z",
+        "type": "list"
+    },
+    {
+        "id": 409046072,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:45:21.253Z",
+        "type": "list"
+    },
+    {
+        "id": 409060435,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T11:47:33.123Z",
+        "type": "list"
+    }
+]
+2019-11-01 17:56:26 INFO  APiTesting:41 - "getalllists" passed
+2019-11-01 17:58:37 INFO  APiTesting:25 - Running "getalllists" function
+2019-11-01 17:58:37 INFO  APiTesting:29 - Creating Request 
+2019-11-01 17:58:39 INFO  APiTesting:34 - Response generated
+2019-11-01 17:58:39 INFO  APiTesting:37 - Response:[
+    {
+        "id": 408399527,
+        "title": "inbox",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:40.590Z",
+        "type": "list"
+    },
+    {
+        "id": 408399548,
+        "title": "Groceries",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-23T07:03:58.557Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw8d66ab18bf056ce36c892fdbe0dc03",
+        "type": "list"
+    },
+    {
+        "id": 408399549,
+        "title": "Work",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwc470df41611e8ff0c282ed59a03be7",
+        "type": "list"
+    },
+    {
+        "id": 408399550,
+        "title": "Travel",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw34d49f5522933c98fc2bde40d8f124",
+        "type": "list"
+    },
+    {
+        "id": 408399551,
+        "title": "Family",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lweeec83a40c5f0a9a90ffa0e97246e0",
+        "type": "list"
+    },
+    {
+        "id": 408399552,
+        "title": "Movies to Watch",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwa769d0e5a64056376452c57d0fd383",
+        "type": "list"
+    },
+    {
+        "id": 408399553,
+        "title": "Private",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.636Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwf02894d7eec600a1487bc63a132088",
+        "type": "list"
+    },
+    {
+        "id": 408484263,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 46,
+        "created_at": "2019-10-24T06:10:12.393Z",
+        "type": "list"
+    },
+    {
+        "id": 408964293,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T08:03:12.784Z",
+        "type": "list"
+    },
+    {
+        "id": 408969100,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:00.755Z",
+        "type": "list"
+    },
+    {
+        "id": 408969109,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:07.815Z",
+        "type": "list"
+    },
+    {
+        "id": 409039667,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:05:40.189Z",
+        "type": "list"
+    },
+    {
+        "id": 409039720,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:07:40.051Z",
+        "type": "list"
+    },
+    {
+        "id": 409039739,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T05:08:36.950Z",
+        "type": "list"
+    },
+    {
+        "id": 409039755,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:09:22.777Z",
+        "type": "list"
+    },
+    {
+        "id": 409042714,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:32:20.117Z",
+        "type": "list"
+    },
+    {
+        "id": 409042874,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:36:09.983Z",
+        "type": "list"
+    },
+    {
+        "id": 409043377,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:48:33.337Z",
+        "type": "list"
+    },
+    {
+        "id": 409043775,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:58:00.371Z",
+        "type": "list"
+    },
+    {
+        "id": 409043811,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T06:58:57.236Z",
+        "type": "list"
+    },
+    {
+        "id": 409045819,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:41:06.412Z",
+        "type": "list"
+    },
+    {
+        "id": 409045950,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:43:24.807Z",
+        "type": "list"
+    },
+    {
+        "id": 409046072,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:45:21.253Z",
+        "type": "list"
+    },
+    {
+        "id": 409060435,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T11:47:33.123Z",
+        "type": "list"
+    }
+]
+2019-11-01 17:58:39 INFO  APiTesting:41 - "getalllists" passed
+2019-11-01 18:00:44 INFO  APiTesting:25 - Running "getalllists" function
+2019-11-01 18:00:44 INFO  APiTesting:29 - Creating Request 
+2019-11-01 18:00:47 INFO  APiTesting:34 - Response generated
+2019-11-01 18:00:47 INFO  APiTesting:37 - Response:[
+    {
+        "id": 408399527,
+        "title": "inbox",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:40.590Z",
+        "type": "list"
+    },
+    {
+        "id": 408399548,
+        "title": "Groceries",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-23T07:03:58.557Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw8d66ab18bf056ce36c892fdbe0dc03",
+        "type": "list"
+    },
+    {
+        "id": 408399549,
+        "title": "Work",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwc470df41611e8ff0c282ed59a03be7",
+        "type": "list"
+    },
+    {
+        "id": 408399550,
+        "title": "Travel",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw34d49f5522933c98fc2bde40d8f124",
+        "type": "list"
+    },
+    {
+        "id": 408399551,
+        "title": "Family",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lweeec83a40c5f0a9a90ffa0e97246e0",
+        "type": "list"
+    },
+    {
+        "id": 408399552,
+        "title": "Movies to Watch",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwa769d0e5a64056376452c57d0fd383",
+        "type": "list"
+    },
+    {
+        "id": 408399553,
+        "title": "Private",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.636Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwf02894d7eec600a1487bc63a132088",
+        "type": "list"
+    },
+    {
+        "id": 408484263,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 46,
+        "created_at": "2019-10-24T06:10:12.393Z",
+        "type": "list"
+    },
+    {
+        "id": 408964293,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T08:03:12.784Z",
+        "type": "list"
+    },
+    {
+        "id": 408969100,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:00.755Z",
+        "type": "list"
+    },
+    {
+        "id": 408969109,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:07.815Z",
+        "type": "list"
+    },
+    {
+        "id": 409039667,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:05:40.189Z",
+        "type": "list"
+    },
+    {
+        "id": 409039720,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:07:40.051Z",
+        "type": "list"
+    },
+    {
+        "id": 409039739,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T05:08:36.950Z",
+        "type": "list"
+    },
+    {
+        "id": 409039755,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:09:22.777Z",
+        "type": "list"
+    },
+    {
+        "id": 409042714,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:32:20.117Z",
+        "type": "list"
+    },
+    {
+        "id": 409042874,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:36:09.983Z",
+        "type": "list"
+    },
+    {
+        "id": 409043377,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:48:33.337Z",
+        "type": "list"
+    },
+    {
+        "id": 409043775,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:58:00.371Z",
+        "type": "list"
+    },
+    {
+        "id": 409043811,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T06:58:57.236Z",
+        "type": "list"
+    },
+    {
+        "id": 409045819,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:41:06.412Z",
+        "type": "list"
+    },
+    {
+        "id": 409045950,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:43:24.807Z",
+        "type": "list"
+    },
+    {
+        "id": 409046072,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:45:21.253Z",
+        "type": "list"
+    },
+    {
+        "id": 409060435,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T11:47:33.123Z",
+        "type": "list"
+    }
+]
+2019-11-01 18:00:47 INFO  APiTesting:41 - "getalllists" passed
+2019-11-01 18:01:33 INFO  APiTesting:25 - Running "getalllists" function
+2019-11-01 18:01:33 INFO  APiTesting:29 - Creating Request 
+2019-11-01 18:01:36 INFO  APiTesting:34 - Response generated
+2019-11-01 18:01:36 INFO  APiTesting:37 - Response:[
+    {
+        "id": 408399527,
+        "title": "inbox",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:40.590Z",
+        "type": "list"
+    },
+    {
+        "id": 408399548,
+        "title": "Groceries",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-23T07:03:58.557Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw8d66ab18bf056ce36c892fdbe0dc03",
+        "type": "list"
+    },
+    {
+        "id": 408399549,
+        "title": "Work",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwc470df41611e8ff0c282ed59a03be7",
+        "type": "list"
+    },
+    {
+        "id": 408399550,
+        "title": "Travel",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw34d49f5522933c98fc2bde40d8f124",
+        "type": "list"
+    },
+    {
+        "id": 408399551,
+        "title": "Family",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lweeec83a40c5f0a9a90ffa0e97246e0",
+        "type": "list"
+    },
+    {
+        "id": 408399552,
+        "title": "Movies to Watch",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwa769d0e5a64056376452c57d0fd383",
+        "type": "list"
+    },
+    {
+        "id": 408399553,
+        "title": "Private",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.636Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwf02894d7eec600a1487bc63a132088",
+        "type": "list"
+    },
+    {
+        "id": 408484263,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 46,
+        "created_at": "2019-10-24T06:10:12.393Z",
+        "type": "list"
+    },
+    {
+        "id": 408964293,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T08:03:12.784Z",
+        "type": "list"
+    },
+    {
+        "id": 408969100,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:00.755Z",
+        "type": "list"
+    },
+    {
+        "id": 408969109,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:07.815Z",
+        "type": "list"
+    },
+    {
+        "id": 409039667,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:05:40.189Z",
+        "type": "list"
+    },
+    {
+        "id": 409039720,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:07:40.051Z",
+        "type": "list"
+    },
+    {
+        "id": 409039739,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T05:08:36.950Z",
+        "type": "list"
+    },
+    {
+        "id": 409039755,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:09:22.777Z",
+        "type": "list"
+    },
+    {
+        "id": 409042714,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:32:20.117Z",
+        "type": "list"
+    },
+    {
+        "id": 409042874,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:36:09.983Z",
+        "type": "list"
+    },
+    {
+        "id": 409043377,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:48:33.337Z",
+        "type": "list"
+    },
+    {
+        "id": 409043775,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:58:00.371Z",
+        "type": "list"
+    },
+    {
+        "id": 409043811,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T06:58:57.236Z",
+        "type": "list"
+    },
+    {
+        "id": 409045819,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:41:06.412Z",
+        "type": "list"
+    },
+    {
+        "id": 409045950,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:43:24.807Z",
+        "type": "list"
+    },
+    {
+        "id": 409046072,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:45:21.253Z",
+        "type": "list"
+    },
+    {
+        "id": 409060435,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T11:47:33.123Z",
+        "type": "list"
+    }
+]
+2019-11-01 18:01:36 INFO  APiTesting:41 - "getalllists" passed
+2019-11-01 18:01:36 INFO  APiTesting:237 - Creating Request 
+2019-11-01 18:01:37 INFO  APiTesting:241 - Response generated
+2019-11-01 18:01:37 INFO  APiTesting:263 - Creating Request 
+2019-11-01 18:01:39 INFO  APiTesting:267 - Response generated
+2019-11-01 18:01:39 INFO  APiTesting:289 - Creating Request 
+2019-11-01 18:01:40 INFO  APiTesting:293 - Response generated
+2019-11-01 18:01:40 INFO  APiTesting:110 - Running "createlist" function
+2019-11-01 18:01:41 INFO  APiTesting:117 - Response generated
+2019-11-01 18:01:41 INFO  APiTesting:85 - Running "getSpecificList" function
+2019-11-01 18:01:41 INFO  APiTesting:90 - Creating Request 
+2019-11-01 18:01:42 INFO  APiTesting:94 - Response generated
+2019-11-01 18:01:42 INFO  APiTesting:96 - Response:{
+    "id": 409135121,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 1,
+    "created_at": "2019-11-01T12:31:39.357Z",
+    "type": "list"
+}
+2019-11-01 18:01:42 INFO  APiTesting:162 - Creating Request 
+2019-11-01 18:01:43 INFO  APiTesting:166 - Response generated
+2019-11-01 18:01:43 INFO  APiTesting:169 - Response:{
+    "id": 409135121,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 2,
+    "created_at": "2019-11-01T12:31:39.357Z",
+    "type": "list"
+}
+2019-11-01 18:01:43 INFO  APiTesting:137 - Creating Request 
+2019-11-01 18:01:44 INFO  APiTesting:143 - Response generated
+2019-11-01 18:01:44 INFO  APiTesting:144 - Response:{
+    "id": 409135121,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 3,
+    "created_at": "2019-11-01T12:31:39.357Z",
+    "type": "list"
+}
+2019-11-01 18:01:44 INFO  APiTesting:58 - Running "deleteList" function
+2019-11-01 18:01:44 INFO  APiTesting:60 - Creating Request 
+2019-11-01 18:01:45 INFO  APiTesting:67 - Response generated
+2019-11-01 18:01:45 INFO  APiTesting:70 - Response:
+2019-11-01 18:01:45 INFO  APiTesting:186 - Creating Request 
+2019-11-01 18:01:46 INFO  APiTesting:190 - Response generated
+2019-11-01 18:01:46 INFO  APiTesting:193 - Response:[
+    {
+        "id": 5544808087,
+        "created_at": "2019-10-31T09:37:14.745Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "qwerty",
+        "type": "task"
+    },
+    {
+        "id": 5544981454,
+        "created_at": "2019-10-31T10:54:08.974Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "qwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545112042,
+        "created_at": "2019-10-31T11:48:54.430Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545116188,
+        "created_at": "2019-10-31T11:50:35.406Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545119092,
+        "created_at": "2019-10-31T11:51:45.592Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545124133,
+        "created_at": "2019-10-31T11:53:50.531Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545129020,
+        "created_at": "2019-10-31T11:55:51.594Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545146915,
+        "created_at": "2019-10-31T12:03:12.387Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545149146,
+        "created_at": "2019-10-31T12:04:07.929Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545162505,
+        "created_at": "2019-10-31T12:09:36.598Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545165532,
+        "created_at": "2019-10-31T12:10:40.608Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 4,
+        "title": "408484263",
+        "type": "task"
+    },
+    {
+        "id": 5545202340,
+        "created_at": "2019-10-31T12:25:28.003Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545203447,
+        "created_at": "2019-10-31T12:25:55.175Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545206243,
+        "created_at": "2019-10-31T12:27:01.726Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545226793,
+        "created_at": "2019-10-31T12:34:40.049Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545229079,
+        "created_at": "2019-10-31T12:35:36.250Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545236345,
+        "created_at": "2019-10-31T12:38:24.986Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545237864,
+        "created_at": "2019-10-31T12:38:59.580Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 4,
+        "title": "408484263",
+        "type": "task"
+    },
+    {
+        "id": 5545240402,
+        "created_at": "2019-10-31T12:40:03.194Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545241481,
+        "created_at": "2019-10-31T12:40:30.192Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545245859,
+        "created_at": "2019-10-31T12:42:17.159Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5547939207,
+        "created_at": "2019-11-01T12:17:44.639Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    }
+]
+2019-11-01 18:01:46 INFO  APiTesting:209 - Creating Request 
+2019-11-01 18:01:48 INFO  APiTesting:213 - Response generated
+2019-11-01 18:01:48 INFO  APiTesting:216 - Response:{
+    "id": 5547976278,
+    "created_at": "2019-11-01T12:31:46.248Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 1,
+    "title": "taskqwerty",
+    "type": "task"
+}
+2019-11-01 18:13:09 INFO  APiTesting:25 - Running "getalllists" function
+2019-11-01 18:13:09 INFO  APiTesting:29 - Creating Request 
+2019-11-01 18:13:12 INFO  APiTesting:34 - Response generated
+2019-11-01 18:13:12 INFO  APiTesting:37 - Response:[
+    {
+        "id": 408399527,
+        "title": "inbox",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:40.590Z",
+        "type": "list"
+    },
+    {
+        "id": 408399548,
+        "title": "Groceries",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-23T07:03:58.557Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw8d66ab18bf056ce36c892fdbe0dc03",
+        "type": "list"
+    },
+    {
+        "id": 408399549,
+        "title": "Work",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwc470df41611e8ff0c282ed59a03be7",
+        "type": "list"
+    },
+    {
+        "id": 408399550,
+        "title": "Travel",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw34d49f5522933c98fc2bde40d8f124",
+        "type": "list"
+    },
+    {
+        "id": 408399551,
+        "title": "Family",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lweeec83a40c5f0a9a90ffa0e97246e0",
+        "type": "list"
+    },
+    {
+        "id": 408399552,
+        "title": "Movies to Watch",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwa769d0e5a64056376452c57d0fd383",
+        "type": "list"
+    },
+    {
+        "id": 408399553,
+        "title": "Private",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.636Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwf02894d7eec600a1487bc63a132088",
+        "type": "list"
+    },
+    {
+        "id": 408484263,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 47,
+        "created_at": "2019-10-24T06:10:12.393Z",
+        "type": "list"
+    },
+    {
+        "id": 408964293,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T08:03:12.784Z",
+        "type": "list"
+    },
+    {
+        "id": 408969100,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:00.755Z",
+        "type": "list"
+    },
+    {
+        "id": 408969109,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:07.815Z",
+        "type": "list"
+    },
+    {
+        "id": 409039667,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:05:40.189Z",
+        "type": "list"
+    },
+    {
+        "id": 409039720,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:07:40.051Z",
+        "type": "list"
+    },
+    {
+        "id": 409039739,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T05:08:36.950Z",
+        "type": "list"
+    },
+    {
+        "id": 409039755,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:09:22.777Z",
+        "type": "list"
+    },
+    {
+        "id": 409042714,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:32:20.117Z",
+        "type": "list"
+    },
+    {
+        "id": 409042874,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:36:09.983Z",
+        "type": "list"
+    },
+    {
+        "id": 409043377,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:48:33.337Z",
+        "type": "list"
+    },
+    {
+        "id": 409043775,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:58:00.371Z",
+        "type": "list"
+    },
+    {
+        "id": 409043811,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T06:58:57.236Z",
+        "type": "list"
+    },
+    {
+        "id": 409045819,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:41:06.412Z",
+        "type": "list"
+    },
+    {
+        "id": 409045950,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:43:24.807Z",
+        "type": "list"
+    },
+    {
+        "id": 409046072,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:45:21.253Z",
+        "type": "list"
+    },
+    {
+        "id": 409060435,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T11:47:33.123Z",
+        "type": "list"
+    }
+]
+2019-11-01 18:13:12 INFO  APiTesting:41 - "getalllists" passed
+2019-11-01 18:13:12 INFO  APiTesting:110 - Running "createlist" function
+2019-11-01 18:13:13 INFO  APiTesting:117 - Response generated
+2019-11-01 18:13:14 INFO  APiTesting:85 - Running "getSpecificList" function
+2019-11-01 18:13:14 INFO  APiTesting:90 - Creating Request 
+2019-11-01 18:13:15 INFO  APiTesting:94 - Response generated
+2019-11-01 18:13:15 INFO  APiTesting:96 - Response:{
+    "id": 409135838,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 1,
+    "created_at": "2019-11-01T12:43:12.200Z",
+    "type": "list"
+}
+2019-11-01 18:13:15 INFO  APiTesting:162 - Creating Request 
+2019-11-01 18:13:16 INFO  APiTesting:166 - Response generated
+2019-11-01 18:13:16 INFO  APiTesting:169 - Response:{
+    "id": 409135838,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 2,
+    "created_at": "2019-11-01T12:43:12.200Z",
+    "type": "list"
+}
+2019-11-01 18:13:16 INFO  APiTesting:137 - Creating Request 
+2019-11-01 18:13:17 INFO  APiTesting:143 - Response generated
+2019-11-01 18:13:17 INFO  APiTesting:144 - Response:{
+    "id": 409135838,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 3,
+    "created_at": "2019-11-01T12:43:12.200Z",
+    "type": "list"
+}
+2019-11-01 18:13:17 INFO  APiTesting:58 - Running "deleteList" function
+2019-11-01 18:13:17 INFO  APiTesting:60 - Creating Request 
+2019-11-01 18:13:18 INFO  APiTesting:67 - Response generated
+2019-11-01 18:13:18 INFO  APiTesting:70 - Response:
+2019-11-01 18:13:18 INFO  APiTesting:186 - Creating Request 
+2019-11-01 18:13:19 INFO  APiTesting:190 - Response generated
+2019-11-01 18:13:19 INFO  APiTesting:193 - Response:[
+    {
+        "id": 5544808087,
+        "created_at": "2019-10-31T09:37:14.745Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "qwerty",
+        "type": "task"
+    },
+    {
+        "id": 5544981454,
+        "created_at": "2019-10-31T10:54:08.974Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "qwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545112042,
+        "created_at": "2019-10-31T11:48:54.430Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545116188,
+        "created_at": "2019-10-31T11:50:35.406Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545119092,
+        "created_at": "2019-10-31T11:51:45.592Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545124133,
+        "created_at": "2019-10-31T11:53:50.531Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545129020,
+        "created_at": "2019-10-31T11:55:51.594Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545146915,
+        "created_at": "2019-10-31T12:03:12.387Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545149146,
+        "created_at": "2019-10-31T12:04:07.929Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545162505,
+        "created_at": "2019-10-31T12:09:36.598Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545165532,
+        "created_at": "2019-10-31T12:10:40.608Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 4,
+        "title": "408484263",
+        "type": "task"
+    },
+    {
+        "id": 5545202340,
+        "created_at": "2019-10-31T12:25:28.003Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545203447,
+        "created_at": "2019-10-31T12:25:55.175Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545206243,
+        "created_at": "2019-10-31T12:27:01.726Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545226793,
+        "created_at": "2019-10-31T12:34:40.049Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545229079,
+        "created_at": "2019-10-31T12:35:36.250Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545236345,
+        "created_at": "2019-10-31T12:38:24.986Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545237864,
+        "created_at": "2019-10-31T12:38:59.580Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 4,
+        "title": "408484263",
+        "type": "task"
+    },
+    {
+        "id": 5545240402,
+        "created_at": "2019-10-31T12:40:03.194Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545241481,
+        "created_at": "2019-10-31T12:40:30.192Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545245859,
+        "created_at": "2019-10-31T12:42:17.159Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5547939207,
+        "created_at": "2019-11-01T12:17:44.639Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5547976278,
+        "created_at": "2019-11-01T12:31:46.248Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    }
+]
+2019-11-01 18:13:19 INFO  APiTesting:209 - Creating Request 
+2019-11-01 18:13:21 INFO  APiTesting:213 - Response generated
+2019-11-01 18:13:21 INFO  APiTesting:216 - Response:{
+    "id": 5548006147,
+    "created_at": "2019-11-01T12:43:19.270Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 1,
+    "title": "taskqwerty",
+    "type": "task"
+}
+2019-11-01 18:13:21 INFO  APiTesting:237 - Creating Request 
+2019-11-01 18:13:22 INFO  APiTesting:241 - Response generated
+2019-11-01 18:13:22 INFO  APiTesting:244 - Response:{
+    "id": 5548006147,
+    "created_at": "2019-11-01T12:43:19.270Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 2,
+    "title": "408484263",
+    "type": "task"
+}
+2019-11-01 18:13:22 INFO  APiTesting:263 - Creating Request 
+2019-11-01 18:13:23 INFO  APiTesting:267 - Response generated
+2019-11-01 18:13:23 INFO  APiTesting:270 - Response:{
+    "id": 5548006147,
+    "created_at": "2019-11-01T12:43:19.270Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 3,
+    "title": "5545149146",
+    "type": "task"
+}
+2019-11-01 18:13:23 INFO  APiTesting:289 - Creating Request 
+2019-11-01 18:13:24 INFO  APiTesting:293 - Response generated
+2019-11-01 18:13:24 INFO  APiTesting:296 - Response:
+2019-11-01 18:15:26 INFO  APiTesting:25 - Running "getalllists" function
+2019-11-01 18:15:26 INFO  APiTesting:29 - Creating Request 
+2019-11-01 18:15:29 INFO  APiTesting:34 - Response generated
+2019-11-01 18:15:29 INFO  APiTesting:37 - Response:[
+    {
+        "id": 408399527,
+        "title": "inbox",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:40.590Z",
+        "type": "list"
+    },
+    {
+        "id": 408399548,
+        "title": "Groceries",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-23T07:03:58.557Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw8d66ab18bf056ce36c892fdbe0dc03",
+        "type": "list"
+    },
+    {
+        "id": 408399549,
+        "title": "Work",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwc470df41611e8ff0c282ed59a03be7",
+        "type": "list"
+    },
+    {
+        "id": 408399550,
+        "title": "Travel",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw34d49f5522933c98fc2bde40d8f124",
+        "type": "list"
+    },
+    {
+        "id": 408399551,
+        "title": "Family",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lweeec83a40c5f0a9a90ffa0e97246e0",
+        "type": "list"
+    },
+    {
+        "id": 408399552,
+        "title": "Movies to Watch",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwa769d0e5a64056376452c57d0fd383",
+        "type": "list"
+    },
+    {
+        "id": 408399553,
+        "title": "Private",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.636Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwf02894d7eec600a1487bc63a132088",
+        "type": "list"
+    },
+    {
+        "id": 408484263,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 51,
+        "created_at": "2019-10-24T06:10:12.393Z",
+        "type": "list"
+    },
+    {
+        "id": 408964293,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T08:03:12.784Z",
+        "type": "list"
+    },
+    {
+        "id": 408969100,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:00.755Z",
+        "type": "list"
+    },
+    {
+        "id": 408969109,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:07.815Z",
+        "type": "list"
+    },
+    {
+        "id": 409039667,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:05:40.189Z",
+        "type": "list"
+    },
+    {
+        "id": 409039720,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:07:40.051Z",
+        "type": "list"
+    },
+    {
+        "id": 409039739,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T05:08:36.950Z",
+        "type": "list"
+    },
+    {
+        "id": 409039755,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:09:22.777Z",
+        "type": "list"
+    },
+    {
+        "id": 409042714,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:32:20.117Z",
+        "type": "list"
+    },
+    {
+        "id": 409042874,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:36:09.983Z",
+        "type": "list"
+    },
+    {
+        "id": 409043377,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:48:33.337Z",
+        "type": "list"
+    },
+    {
+        "id": 409043775,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:58:00.371Z",
+        "type": "list"
+    },
+    {
+        "id": 409043811,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T06:58:57.236Z",
+        "type": "list"
+    },
+    {
+        "id": 409045819,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:41:06.412Z",
+        "type": "list"
+    },
+    {
+        "id": 409045950,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:43:24.807Z",
+        "type": "list"
+    },
+    {
+        "id": 409046072,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:45:21.253Z",
+        "type": "list"
+    },
+    {
+        "id": 409060435,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T11:47:33.123Z",
+        "type": "list"
+    }
+]
+2019-11-01 18:15:29 INFO  APiTesting:41 - "getalllists" passed
+2019-11-01 18:15:29 INFO  APiTesting:110 - Running "createlist" function
+2019-11-01 18:15:31 INFO  APiTesting:117 - Response generated
+2019-11-01 18:15:31 INFO  APiTesting:85 - Running "getSpecificList" function
+2019-11-01 18:15:31 INFO  APiTesting:90 - Creating Request 
+2019-11-01 18:15:32 INFO  APiTesting:94 - Response generated
+2019-11-01 18:15:32 INFO  APiTesting:96 - Response:{
+    "id": 409136008,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 1,
+    "created_at": "2019-11-01T12:45:29.366Z",
+    "type": "list"
+}
+2019-11-01 18:15:32 INFO  APiTesting:162 - Creating Request 
+2019-11-01 18:15:33 INFO  APiTesting:166 - Response generated
+2019-11-01 18:15:33 INFO  APiTesting:169 - Response:{
+    "id": 409136008,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 2,
+    "created_at": "2019-11-01T12:45:29.366Z",
+    "type": "list"
+}
+2019-11-01 18:15:34 INFO  APiTesting:137 - Creating Request 
+2019-11-01 18:15:35 INFO  APiTesting:143 - Response generated
+2019-11-01 18:15:35 INFO  APiTesting:144 - Response:{
+    "id": 409136008,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 3,
+    "created_at": "2019-11-01T12:45:29.366Z",
+    "type": "list"
+}
+2019-11-01 18:15:35 INFO  APiTesting:58 - Running "deleteList" function
+2019-11-01 18:15:35 INFO  APiTesting:60 - Creating Request 
+2019-11-01 18:15:36 INFO  APiTesting:67 - Response generated
+2019-11-01 18:15:36 INFO  APiTesting:70 - Response:
+2019-11-01 18:15:36 INFO  APiTesting:186 - Creating Request 
+2019-11-01 18:15:37 INFO  APiTesting:190 - Response generated
+2019-11-01 18:15:37 INFO  APiTesting:193 - Response:[
+    {
+        "id": 5544808087,
+        "created_at": "2019-10-31T09:37:14.745Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "qwerty",
+        "type": "task"
+    },
+    {
+        "id": 5544981454,
+        "created_at": "2019-10-31T10:54:08.974Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "qwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545112042,
+        "created_at": "2019-10-31T11:48:54.430Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545116188,
+        "created_at": "2019-10-31T11:50:35.406Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545119092,
+        "created_at": "2019-10-31T11:51:45.592Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545124133,
+        "created_at": "2019-10-31T11:53:50.531Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545129020,
+        "created_at": "2019-10-31T11:55:51.594Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545146915,
+        "created_at": "2019-10-31T12:03:12.387Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545149146,
+        "created_at": "2019-10-31T12:04:07.929Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545162505,
+        "created_at": "2019-10-31T12:09:36.598Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545165532,
+        "created_at": "2019-10-31T12:10:40.608Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 4,
+        "title": "408484263",
+        "type": "task"
+    },
+    {
+        "id": 5545202340,
+        "created_at": "2019-10-31T12:25:28.003Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545203447,
+        "created_at": "2019-10-31T12:25:55.175Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545206243,
+        "created_at": "2019-10-31T12:27:01.726Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545226793,
+        "created_at": "2019-10-31T12:34:40.049Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545229079,
+        "created_at": "2019-10-31T12:35:36.250Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545236345,
+        "created_at": "2019-10-31T12:38:24.986Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545237864,
+        "created_at": "2019-10-31T12:38:59.580Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 4,
+        "title": "408484263",
+        "type": "task"
+    },
+    {
+        "id": 5545240402,
+        "created_at": "2019-10-31T12:40:03.194Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545241481,
+        "created_at": "2019-10-31T12:40:30.192Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545245859,
+        "created_at": "2019-10-31T12:42:17.159Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5547939207,
+        "created_at": "2019-11-01T12:17:44.639Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5547976278,
+        "created_at": "2019-11-01T12:31:46.248Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    }
+]
+2019-11-01 18:15:37 INFO  APiTesting:209 - Creating Request 
+2019-11-01 18:15:38 INFO  APiTesting:213 - Response generated
+2019-11-01 18:15:38 INFO  APiTesting:216 - Response:{
+    "id": 5548012152,
+    "created_at": "2019-11-01T12:45:36.768Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 1,
+    "title": "taskqwerty",
+    "type": "task"
+}
+2019-11-01 18:15:38 INFO  APiTesting:237 - Creating Request 
+2019-11-01 18:15:39 INFO  APiTesting:241 - Response generated
+2019-11-01 18:15:39 INFO  APiTesting:244 - Response:{
+    "id": 5548012152,
+    "created_at": "2019-11-01T12:45:36.768Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 2,
+    "title": "408484263",
+    "type": "task"
+}
+2019-11-01 18:15:39 INFO  APiTesting:263 - Creating Request 
+2019-11-01 18:15:40 INFO  APiTesting:267 - Response generated
+2019-11-01 18:15:40 INFO  APiTesting:270 - Response:{
+    "id": 5548012152,
+    "created_at": "2019-11-01T12:45:36.768Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 3,
+    "title": "5545149146",
+    "type": "task"
+}
+2019-11-01 18:15:40 INFO  APiTesting:289 - Creating Request 
+2019-11-01 18:15:41 INFO  APiTesting:293 - Response generated
+2019-11-01 18:15:41 INFO  APiTesting:296 - Response:
+2019-11-01 18:15:54 INFO  APiTesting:25 - Running "getalllists" function
+2019-11-01 18:15:54 INFO  APiTesting:29 - Creating Request 
+2019-11-01 18:15:56 INFO  APiTesting:34 - Response generated
+2019-11-01 18:15:56 INFO  APiTesting:37 - Response:[
+    {
+        "id": 408399527,
+        "title": "inbox",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:40.590Z",
+        "type": "list"
+    },
+    {
+        "id": 408399548,
+        "title": "Groceries",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-23T07:03:58.557Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw8d66ab18bf056ce36c892fdbe0dc03",
+        "type": "list"
+    },
+    {
+        "id": 408399549,
+        "title": "Work",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwc470df41611e8ff0c282ed59a03be7",
+        "type": "list"
+    },
+    {
+        "id": 408399550,
+        "title": "Travel",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.631Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lw34d49f5522933c98fc2bde40d8f124",
+        "type": "list"
+    },
+    {
+        "id": 408399551,
+        "title": "Family",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lweeec83a40c5f0a9a90ffa0e97246e0",
+        "type": "list"
+    },
+    {
+        "id": 408399552,
+        "title": "Movies to Watch",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.635Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwa769d0e5a64056376452c57d0fd383",
+        "type": "list"
+    },
+    {
+        "id": 408399553,
+        "title": "Private",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-23T07:03:58.636Z",
+        "created_by_request_id": "498d3ffc44ddfa2f275b:379a6e11-9ae4-401a-93c2-bb617db83f7f:9e7fcb63-0e48-4d67-b355-d6d3-20075d16:96531082:lwf02894d7eec600a1487bc63a132088",
+        "type": "list"
+    },
+    {
+        "id": 408484263,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 55,
+        "created_at": "2019-10-24T06:10:12.393Z",
+        "type": "list"
+    },
+    {
+        "id": 408964293,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T08:03:12.784Z",
+        "type": "list"
+    },
+    {
+        "id": 408969100,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:00.755Z",
+        "type": "list"
+    },
+    {
+        "id": 408969109,
+        "title": "Hallo123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-30T09:15:07.815Z",
+        "type": "list"
+    },
+    {
+        "id": 409039667,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:05:40.189Z",
+        "type": "list"
+    },
+    {
+        "id": 409039720,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:07:40.051Z",
+        "type": "list"
+    },
+    {
+        "id": 409039739,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T05:08:36.950Z",
+        "type": "list"
+    },
+    {
+        "id": 409039755,
+        "title": "\"qwerty\"",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T05:09:22.777Z",
+        "type": "list"
+    },
+    {
+        "id": 409042714,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:32:20.117Z",
+        "type": "list"
+    },
+    {
+        "id": 409042874,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:36:09.983Z",
+        "type": "list"
+    },
+    {
+        "id": 409043377,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:48:33.337Z",
+        "type": "list"
+    },
+    {
+        "id": 409043775,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T06:58:00.371Z",
+        "type": "list"
+    },
+    {
+        "id": 409043811,
+        "title": "qwerty12345",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-10-31T06:58:57.236Z",
+        "type": "list"
+    },
+    {
+        "id": 409045819,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:41:06.412Z",
+        "type": "list"
+    },
+    {
+        "id": 409045950,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:43:24.807Z",
+        "type": "list"
+    },
+    {
+        "id": 409046072,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T07:45:21.253Z",
+        "type": "list"
+    },
+    {
+        "id": 409060435,
+        "title": "qwert123",
+        "owner_type": "user",
+        "owner_id": 96531082,
+        "list_type": "list",
+        "public": false,
+        "revision": 1,
+        "created_at": "2019-10-31T11:47:33.123Z",
+        "type": "list"
+    }
+]
+2019-11-01 18:15:56 INFO  APiTesting:41 - "getalllists" passed
+2019-11-01 18:15:57 INFO  APiTesting:110 - Running "createlist" function
+2019-11-01 18:15:58 INFO  APiTesting:117 - Response generated
+2019-11-01 18:15:59 INFO  APiTesting:85 - Running "getSpecificList" function
+2019-11-01 18:15:59 INFO  APiTesting:90 - Creating Request 
+2019-11-01 18:16:00 INFO  APiTesting:94 - Response generated
+2019-11-01 18:16:00 INFO  APiTesting:96 - Response:{
+    "id": 409136050,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 1,
+    "created_at": "2019-11-01T12:45:56.733Z",
+    "type": "list"
+}
+2019-11-01 18:16:00 INFO  APiTesting:162 - Creating Request 
+2019-11-01 18:16:01 INFO  APiTesting:166 - Response generated
+2019-11-01 18:16:01 INFO  APiTesting:169 - Response:{
+    "id": 409136050,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 2,
+    "created_at": "2019-11-01T12:45:56.733Z",
+    "type": "list"
+}
+2019-11-01 18:16:01 INFO  APiTesting:137 - Creating Request 
+2019-11-01 18:16:02 INFO  APiTesting:143 - Response generated
+2019-11-01 18:16:02 INFO  APiTesting:144 - Response:{
+    "id": 409136050,
+    "title": "qwert123",
+    "owner_type": "user",
+    "owner_id": 96531082,
+    "list_type": "list",
+    "public": false,
+    "revision": 3,
+    "created_at": "2019-11-01T12:45:56.733Z",
+    "type": "list"
+}
+2019-11-01 18:16:02 INFO  APiTesting:58 - Running "deleteList" function
+2019-11-01 18:16:02 INFO  APiTesting:60 - Creating Request 
+2019-11-01 18:16:03 INFO  APiTesting:67 - Response generated
+2019-11-01 18:16:03 INFO  APiTesting:70 - Response:
+2019-11-01 18:16:03 INFO  APiTesting:186 - Creating Request 
+2019-11-01 18:16:04 INFO  APiTesting:190 - Response generated
+2019-11-01 18:16:04 INFO  APiTesting:193 - Response:[
+    {
+        "id": 5544808087,
+        "created_at": "2019-10-31T09:37:14.745Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "qwerty",
+        "type": "task"
+    },
+    {
+        "id": 5544981454,
+        "created_at": "2019-10-31T10:54:08.974Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "qwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545112042,
+        "created_at": "2019-10-31T11:48:54.430Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545116188,
+        "created_at": "2019-10-31T11:50:35.406Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545119092,
+        "created_at": "2019-10-31T11:51:45.592Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545124133,
+        "created_at": "2019-10-31T11:53:50.531Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545129020,
+        "created_at": "2019-10-31T11:55:51.594Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545146915,
+        "created_at": "2019-10-31T12:03:12.387Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545149146,
+        "created_at": "2019-10-31T12:04:07.929Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545162505,
+        "created_at": "2019-10-31T12:09:36.598Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545165532,
+        "created_at": "2019-10-31T12:10:40.608Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 4,
+        "title": "408484263",
+        "type": "task"
+    },
+    {
+        "id": 5545202340,
+        "created_at": "2019-10-31T12:25:28.003Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545203447,
+        "created_at": "2019-10-31T12:25:55.175Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545206243,
+        "created_at": "2019-10-31T12:27:01.726Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545226793,
+        "created_at": "2019-10-31T12:34:40.049Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545229079,
+        "created_at": "2019-10-31T12:35:36.250Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545236345,
+        "created_at": "2019-10-31T12:38:24.986Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545237864,
+        "created_at": "2019-10-31T12:38:59.580Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 4,
+        "title": "408484263",
+        "type": "task"
+    },
+    {
+        "id": 5545240402,
+        "created_at": "2019-10-31T12:40:03.194Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5545241481,
+        "created_at": "2019-10-31T12:40:30.192Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 3,
+        "title": "5545149146",
+        "type": "task"
+    },
+    {
+        "id": 5545245859,
+        "created_at": "2019-10-31T12:42:17.159Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5547939207,
+        "created_at": "2019-11-01T12:17:44.639Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    },
+    {
+        "id": 5547976278,
+        "created_at": "2019-11-01T12:31:46.248Z",
+        "created_by_id": 96531082,
+        "completed": false,
+        "starred": false,
+        "list_id": 408484263,
+        "revision": 1,
+        "title": "taskqwerty",
+        "type": "task"
+    }
+]
+2019-11-01 18:16:04 INFO  APiTesting:209 - Creating Request 
+2019-11-01 18:16:05 INFO  APiTesting:213 - Response generated
+2019-11-01 18:16:05 INFO  APiTesting:216 - Response:{
+    "id": 5548013411,
+    "created_at": "2019-11-01T12:46:04.212Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 1,
+    "title": "taskqwerty",
+    "type": "task"
+}
+2019-11-01 18:16:06 INFO  APiTesting:237 - Creating Request 
+2019-11-01 18:16:07 INFO  APiTesting:241 - Response generated
+2019-11-01 18:16:07 INFO  APiTesting:244 - Response:{
+    "id": 5548013411,
+    "created_at": "2019-11-01T12:46:04.212Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 2,
+    "title": "408484263",
+    "type": "task"
+}
+2019-11-01 18:16:07 INFO  APiTesting:263 - Creating Request 
+2019-11-01 18:16:08 INFO  APiTesting:267 - Response generated
+2019-11-01 18:16:08 INFO  APiTesting:270 - Response:{
+    "id": 5548013411,
+    "created_at": "2019-11-01T12:46:04.212Z",
+    "created_by_id": 96531082,
+    "completed": false,
+    "starred": false,
+    "list_id": 408484263,
+    "revision": 3,
+    "title": "5545149146",
+    "type": "task"
+}
+2019-11-01 18:16:08 INFO  APiTesting:289 - Creating Request 
+2019-11-01 18:16:09 INFO  APiTesting:293 - Response generated
+2019-11-01 18:16:09 INFO  APiTesting:296 - Response:

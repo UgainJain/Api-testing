@@ -1,0 +1,6 @@
+BaseUrl = https://a.wunderlist.com/api/v1
+reportsPath = /ExtentReports
+ClientID = d3be97e3a6a4f75de94e
+Content-Type = application/json
+Access-token = 613be6248ef86e87ccfc595bf067667b30cc4b81e18e5bbfe4c61cc0befc
+excelfilepath = /src/test/java/TestData/data.xlsx

@@ -1,20 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10619" started-at="2019-10-31T12:42:38Z" finished-at="2019-10-31T12:42:49Z">
+  <suite name="Default suite" duration-ms="14868" started-at="2019-11-01T12:45:54Z" finished-at="2019-11-01T12:46:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10619" started-at="2019-10-31T12:42:38Z" finished-at="2019-10-31T12:42:49Z">
+    <test name="Default test" duration-ms="14868" started-at="2019-11-01T12:45:54Z" finished-at="2019-11-01T12:46:09Z">
       <class name="Api.Demo">
-        <test-method status="PASS" signature="before()[pri:0, instance:Api.Demo@91161c7]" name="before" is-config="true" duration-ms="9" started-at="2019-10-31T18:12:38Z" finished-at="2019-10-31T18:12:38Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:Api.Demo@3aeaafa6]" name="before" is-config="true" duration-ms="16" started-at="2019-11-01T18:15:54Z" finished-at="2019-11-01T18:15:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Api.Demo@91161c7]" name="test" duration-ms="10595" started-at="2019-10-31T18:12:38Z" finished-at="2019-10-31T18:12:49Z">
+        <test-method status="PASS" signature="test1()[pri:1, instance:Api.Demo@3aeaafa6]" name="test1" duration-ms="2490" started-at="2019-11-01T18:15:54Z" finished-at="2019-11-01T18:15:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:Api.Demo@3aeaafa6]" name="flush" is-config="true" duration-ms="32" started-at="2019-11-01T18:15:57Z" finished-at="2019-11-01T18:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="test2()[pri:2, instance:Api.Demo@3aeaafa6]" name="test2" duration-ms="1926" started-at="2019-11-01T18:15:57Z" finished-at="2019-11-01T18:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:Api.Demo@3aeaafa6]" name="flush" is-config="true" duration-ms="15" started-at="2019-11-01T18:15:59Z" finished-at="2019-11-01T18:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="test3()[pri:3, instance:Api.Demo@3aeaafa6]" name="test3" duration-ms="1217" started-at="2019-11-01T18:15:59Z" finished-at="2019-11-01T18:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:Api.Demo@3aeaafa6]" name="flush" is-config="true" duration-ms="32" started-at="2019-11-01T18:16:00Z" finished-at="2019-11-01T18:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="test4()[pri:4, instance:Api.Demo@3aeaafa6]" name="test4" duration-ms="1174" started-at="2019-11-01T18:16:00Z" finished-at="2019-11-01T18:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:Api.Demo@3aeaafa6]" name="flush" is-config="true" duration-ms="16" started-at="2019-11-01T18:16:01Z" finished-at="2019-11-01T18:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="test5()[pri:5, instance:Api.Demo@3aeaafa6]" name="test5" duration-ms="1221" started-at="2019-11-01T18:16:01Z" finished-at="2019-11-01T18:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="test6()[pri:6, instance:Api.Demo@3aeaafa6]" name="test6" duration-ms="1103" started-at="2019-11-01T18:16:02Z" finished-at="2019-11-01T18:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:Api.Demo@3aeaafa6]" name="flush" is-config="true" duration-ms="0" started-at="2019-11-01T18:16:02Z" finished-at="2019-11-01T18:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:Api.Demo@3aeaafa6]" name="flush" is-config="true" duration-ms="15" started-at="2019-11-01T18:16:03Z" finished-at="2019-11-01T18:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="test7()[pri:7, instance:Api.Demo@3aeaafa6]" name="test7" duration-ms="1087" started-at="2019-11-01T18:16:03Z" finished-at="2019-11-01T18:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:Api.Demo@3aeaafa6]" name="flush" is-config="true" duration-ms="15" started-at="2019-11-01T18:16:04Z" finished-at="2019-11-01T18:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="test9()[pri:8, instance:Api.Demo@3aeaafa6]" name="test9" duration-ms="1133" started-at="2019-11-01T18:16:04Z" finished-at="2019-11-01T18:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9 -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:Api.Demo@3aeaafa6]" name="flush" is-config="true" duration-ms="34" started-at="2019-11-01T18:16:06Z" finished-at="2019-11-01T18:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="test10()[pri:10, instance:Api.Demo@3aeaafa6]" name="test10" duration-ms="1122" started-at="2019-11-01T18:16:06Z" finished-at="2019-11-01T18:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:Api.Demo@3aeaafa6]" name="flush" is-config="true" duration-ms="15" started-at="2019-11-01T18:16:07Z" finished-at="2019-11-01T18:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="test11()[pri:11, instance:Api.Demo@3aeaafa6]" name="test11" duration-ms="1103" started-at="2019-11-01T18:16:07Z" finished-at="2019-11-01T18:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:Api.Demo@3aeaafa6]" name="flush" is-config="true" duration-ms="16" started-at="2019-11-01T18:16:08Z" finished-at="2019-11-01T18:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method status="PASS" signature="test12()[pri:12, instance:Api.Demo@3aeaafa6]" name="test12" duration-ms="1071" started-at="2019-11-01T18:16:08Z" finished-at="2019-11-01T18:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12 -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:Api.Demo@3aeaafa6]" name="flush" is-config="true" duration-ms="16" started-at="2019-11-01T18:16:09Z" finished-at="2019-11-01T18:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
       </class> <!-- Api.Demo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -6,78 +6,95 @@ import java.util.HashMap;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 
+import com.relevantcodes.extentreports.ExtentReports;
+
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import utils.Common.CommonUtils;
 import utils.dataSource.ExcelLib;
 import utils.dataSource.LoadProperty;
+import utils.reports.ExtentReportManager;
 
 public class BaseClass {
 	public static RequestSpecification httpReq;
 	public static Response resp;
 	public static ExcelLib exl = new ExcelLib();
+	public static ExtentReports reports = ExtentReportManager.getInstance();
+	public static String timestamp;
+	public static String testReportFolderPath;
 	
-	public void createrequest(String req) throws EncryptedDocumentException, InvalidFormatException, IOException {
+	public RequestSpecification createrequest(String req) throws EncryptedDocumentException, InvalidFormatException, IOException {
 		RestAssured.baseURI= LoadProperty.getvar("BaseUrl", "config");
 		httpReq = RestAssured.given();
 		if(req.equalsIgnoreCase("getalllists")) {
 			httpReq= CommonUtils.addHeader(httpReq);
 			httpReq.log().all();
+			return httpReq;
 		}
 		else if (req.equalsIgnoreCase("getSpecificList")) {
 			CommonUtils.addPathVariable("id", exl.exceldata("Lists", 1, 0),httpReq);
-			
 			httpReq = CommonUtils.addHeader(httpReq);
+			return httpReq;
 		}
 		else if (req.equalsIgnoreCase("createList"))
 		{	
 			httpReq = CommonUtils.addHeader(httpReq);
 			httpReq.body(createBody(req));
+			return httpReq;
 		}
 		else if (req.equalsIgnoreCase("updatepatchList"))
 		{	
 			httpReq = CommonUtils.addHeader(httpReq);
 			httpReq = CommonUtils.addPathVariable("id", exl.exceldata("Lists", 1, 0),httpReq);
 			httpReq.body(createBody(req));
+			return httpReq;
 		}
 		else if (req.equalsIgnoreCase("updateputList"))
 		{	
 			httpReq = CommonUtils.addHeader(httpReq);
 			httpReq = CommonUtils.addPathVariable("id", exl.exceldata("Lists", 1, 0),httpReq);
 			httpReq.body(createBody(req));
+			return httpReq;
 		}
 		else if (req.equalsIgnoreCase("deleteList"))
 		{	
 			httpReq = CommonUtils.addHeader(httpReq);
 			httpReq = CommonUtils.addPathVariable("id", exl.exceldata("Lists", 1, 0),httpReq);
-			httpReq = CommonUtils.addqueryParam("revision", exl.exceldata("Lists", 1, 2), httpReq);;
+			httpReq = CommonUtils.addqueryParam("revision", exl.exceldata("Lists", 1, 2), httpReq);
+			return httpReq;
 		}
 		else if (req.equalsIgnoreCase("gettasks")) {
 			CommonUtils.addqueryParam("list_id", exl.exceldata("Lists", 1, 12),httpReq);
 			httpReq = CommonUtils.addHeader(httpReq);
+			return httpReq;
 		}
 		else if (req.equalsIgnoreCase("createtasks")) {
 			httpReq = CommonUtils.addHeader(httpReq);
 			httpReq.body(createBody(req));
+			return httpReq;
 		}
 		else if (req.equalsIgnoreCase("updateputtasks")) {
 			CommonUtils.addPathVariable("id", exl.exceldata("Lists", 1, 5),httpReq);
 			httpReq.body(createBody(req));
 			httpReq = CommonUtils.addHeader(httpReq);
+			return httpReq;
 		}
 		else if (req.equalsIgnoreCase("updatepatchtasks")) {
 			CommonUtils.addPathVariable("id", exl.exceldata("Lists", 1, 5),httpReq);
 			httpReq = CommonUtils.addHeader(httpReq);
 			httpReq.body(createBody(req));
+			return httpReq;
 		}
 		else if (req.equalsIgnoreCase("deletetasks")) {
 			CommonUtils.addPathVariable("id", exl.exceldata("Lists", 1, 5),httpReq);
 			httpReq = CommonUtils.addHeader(httpReq);
 			CommonUtils.addqueryParam("revision", exl.exceldata("Lists", 1, 8), httpReq);
+			return httpReq;
 		}
 		else {
 			System.out.println("Unspecified REquest");
+			return httpReq;
 		}
 			
 	}
